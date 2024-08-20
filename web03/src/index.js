@@ -1,9 +1,12 @@
 
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Cart from './pages/cart/cart.js';
+import Payment from './pages/payment/Payment.js';
+import App from './App';
 import Header from './pages/Home/header';
 import Body from './pages/Home/body';
 import Footer from './pages/Home/footer';
@@ -16,13 +19,21 @@ import Categories from './pages/Categories/category';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Header/>
-    <Profile/> */}
-          <SignUp/>
-    {/* <Index/>
-    <App />
-    <Footer/>
-    <productDetails/> */}
+    {/* <Nav />
+    <Cart />
+    <Footer /> */}
+    <Router>
+      <Routes>
+        <Route path='/Payment' element = {<Payment />}>
+        </Route>
+        <Route path='/Cart' element = {<Cart />}>
+        </Route>
+        <Route path='/SignUP' element = {<SignUp />}>
+        </Route>
+        <Route path='/Categories' element = {<Categories />}>
+        </Route>
+      </Routes>
+    </Router> 
   </React.StrictMode>
 );
 
