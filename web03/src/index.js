@@ -21,7 +21,7 @@ root.render(
     {/* <Header/>
     <Profile/> */}
           <SignUp/>
-    {/* <Index/>
+     <Index/>
     <App />
     <Footer/>
   </React.StrictMode>
