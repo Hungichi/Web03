@@ -10,12 +10,14 @@ import Footer from './page/Footer';
 import Header from './page/Header';
 import Profile from './Auth/account/Profile';
 import productDetails from './page/productDetails';
+import SignIn from './Auth/signin/Index'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Header/>
     <Profile/> */}
-          <SignUp/>
+    {/* <SignIn/> */}
+    <SignUp/>
     {/* <Index/>
     <App />
     <Footer/>
