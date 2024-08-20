@@ -21,7 +21,7 @@ root.render(
   <React.StrictMode>
     {/* <Nav />
     <Cart />
-    <Footer /> */}
+     */}
     <Router>
       <Routes>
         <Route path="/Category" element={<Categories/>} />
@@ -32,7 +32,8 @@ root.render(
         <Route path='/SignUP' element = {<SignUp />}>
         </Route>
       </Routes>
-    </Router> 
+    </Router>
+    <Footer />
   </React.StrictMode>
 );
 
