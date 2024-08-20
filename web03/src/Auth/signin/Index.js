@@ -2,7 +2,7 @@ import React from 'react'
 import './SignIn.css';
 const Index = () => {
   return (
-    <div>
+    <div class="body">
       <div class='container'> 
         <h1>Welcome Back !</h1> 
         <h3>Fps Store</h3> 
