@@ -20,10 +20,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Nav />
-    <Cart />
     <Footer /> */}
+    <Header/>
     <Router>
       <Routes>
+      <Route path='/Category' element = {<Categories />}>
+      </Route>
         <Route path='/Payment' element = {<Payment />}>
         </Route>
         <Route path='/Cart' element = {<Cart />}>
@@ -34,6 +36,7 @@ root.render(
         </Route>
       </Routes>
     </Router> 
+    <Footer/>
   </React.StrictMode>
 );
 
