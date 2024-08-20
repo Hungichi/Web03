@@ -8,6 +8,7 @@
 }
 .body{
     background-color: #000000;
+    height: 100hv;
 }
 .background{
     width: 330px;
@@ -107,7 +108,6 @@ form h3{
 ::placeholder{
     color: #666666;
 }
-.btn{
 .btn{
     margin-top: 20px;
     width: 100%;
