@@ -6,18 +6,18 @@ function footer() {
 
     return (
     <div style={{height :'250px'}}  class="d-flex bg-dark height" >
-            <div class="p-2 d-flex align-items-start flex-column text-light flex-grow-1 bd-highlight" style={{height:'300px'}}>
-                <h2 class="p-2 text-light">FPS Store</h2>
-                <div class="p-2 text-light">FPSstore@gmail.com</div>
-                <div class="p-2 d-flex  text-light">
-                    <FaFacebook style={{fontSize:"18"}} ></FaFacebook>
+            <div class="p-2 d-flex align-items-start flex-column text-light flex-grow-1 bd-highlight" style={{height:'200px'}}>
+            <h1 class=" p-2 text-light">FPS Store</h1>
+            <div class="p-2 text-light">FPSstore@gmail.com</div>
+            <div class="p-2 d-flex  text-light">
+                <FaFacebook style={{fontSize:"18"}} ></FaFacebook>
                 
-                    <div class="ml-15 rounded-circle bg-light d-flex justify-content-center" style={{marginLeft:"15px", width:'18px', height:'18px'}}>
+                <div class="ml-15 rounded-circle bg-light d-flex justify-content-center" style={{marginLeft:"15px", width:'18px', height:'18px'}}>
                     <FaInstagram style={{fontSize:"16", paddingTop : "1px"}} className=' text-black'/>
-                    </div>
-                    <div class="rounded-circle bg-light d-flex justify-content-center" style={{marginLeft:"15px", width:'18px', height:'18px'}}>
+                </div>
+                <div class="rounded-circle bg-light d-flex justify-content-center" style={{marginLeft:"15px", width:'18px', height:'18px'}}>
                     <FaTwitter style={{fontSize:"16", paddingTop : "1px"}} className=' text-black'/>
-                    </div>
+                </div>
 
                 </div>
             </div>
