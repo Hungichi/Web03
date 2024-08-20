@@ -18,12 +18,21 @@ import productDetails from './page/productDetails';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Header/>
-    <Profile/> */}
-          <SignUp/>
-     <Index/>
-    <App />
-    <Footer/>
+    {/* <Nav />
+    <Cart />
+    <Footer /> */}
+    <Router>
+      <Routes>
+        <Route path='/Payment' element = {<Payment />}>
+        </Route>
+        <Route path='/Cart' element = {<Cart />}>
+        </Route>
+        <Route path='/SignUP' element = {<SignUp />}>
+        </Route>
+        <Route path='/Categories' element = {<Categories />}>
+        </Route>
+      </Routes>
+    </Router> 
   </React.StrictMode>
 );
 
