@@ -2,7 +2,7 @@ import React from 'react'
 import './SinUp.css';
 const SignUp = () => {
   return (
-    <div>
+    <div className='"bg-black"'>
        <div class='container'> 
        <h1>CREATE AN ACCOUNT</h1> 
         <h3>Fps Store</h3> 
