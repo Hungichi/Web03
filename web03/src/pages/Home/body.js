@@ -48,35 +48,35 @@ function Body() {
             <div style={{width:"130px"}} className="flex-shrink-1 bd-highlight">Show More<FaArrowRight/></div>
         </div>
         <Carousel responsive={responsive}>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px", marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px" }} className='bg-secondary'>
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px", marginTop:"15px", marginBottom:"15px"  , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px" }} className='bg-secondary'>
+            <div style={ {marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px", marginTop:"15px", marginBottom:"15px"  , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px" }} className='bg-secondary'>
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px", marginTop:"15px", marginBottom:"15px"  , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px" }} className='bg-secondary'>
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px", marginTop:"15px", marginBottom:"15px"  , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px" }} className='bg-secondary'>
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px", marginTop:"15px", marginBottom:"15px"  , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px" }} className='bg-secondary'>
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px", marginTop:"15px", marginBottom:"15px"  , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px" }} className='bg-secondary'>
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px", marginTop:"15px", marginBottom:"15px"  , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px" }} className='bg-secondary'>
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
@@ -87,7 +87,7 @@ function Body() {
             <div style={{width:"130px"}} className="flex-shrink-1 bd-highlight">Show More<FaArrowRight/></div>
         </div>
         <div style={{marginBottom:"20px"}} className='d-flex flex-wrap'>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px",marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -96,7 +96,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px",marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -105,7 +105,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -114,7 +114,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -123,7 +123,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -132,7 +132,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -141,7 +141,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -150,7 +150,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px",marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -159,7 +159,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -168,7 +168,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -177,7 +177,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
@@ -186,7 +186,7 @@ function Body() {
                 </div>
                 
             </div>
-            <div style={ {boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px",marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px" }} className='bg-secondary'>
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>

@@ -5,12 +5,14 @@ import reportWebVitals from './reportWebVitals';
 import Header from './pages/Home/header';
 import Body from './pages/Home/body';
 import Footer from './pages/Home/footer';
+import Categories from './pages/Categories/category';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
     <Body/>
+    {/* <Categories/> */}
     <Footer/>
 
 
