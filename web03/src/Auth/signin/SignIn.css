@@ -6,9 +6,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* body{
+.body{
     background-color: #000000;
-} */
+}
 .background{
     width: 330px;
     height: 420px;
@@ -45,7 +45,7 @@
     text-align: center;
     position: absolute;
 }
-h1{
+.h1{
     position: absolute;
     top: 250px;
     left: 200px;
@@ -67,7 +67,7 @@ h4{
 form{
     height: 520px;
     width: 400px;
-    background-color: rgba(61, 60, 60, 0.13);
+    background-color: rgba(0, 0, 0, 0.13);
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -80,7 +80,7 @@ form{
 }
 form *{
     font-family: 'Poppins',sans-serif;
-    color: #ffffff;
+    color: #000000;
     letter-spacing: 0.5px;
     outline:none;
     border: none;
@@ -92,7 +92,7 @@ form h3{
     text-align: left;
 }
 
-input{
+.inp{
     display: block;
     height: 30px;
     width: 100%;
@@ -107,7 +107,7 @@ input{
 ::placeholder{
     color: #666666;
 }
-.btn{
+/* button{
     margin-top: 20px;
     width: 100%;
     background: linear-gradient(
@@ -171,7 +171,7 @@ h6{
     color: #4D4D4D;
     left: 235px;
 }
-img{
+#img1{
     position: absolute;
     top: 350px;
     left: 175px;
