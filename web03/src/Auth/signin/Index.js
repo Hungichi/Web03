@@ -25,7 +25,7 @@ const Index = () => {
             <a href='#'>Forgot password?</a>
           </div>
         </div>
-        <button>Login</button>
+        <button className='btn' >Login</button>
         <div class="social">
           <h5 class='line-one'>__________</h5> 
           <h6>Or</h6>

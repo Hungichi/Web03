@@ -4,12 +4,13 @@ import {FaChevronDown} from 'react-icons/fa';
 
 function Categories() {
     return (
-       <div className='d-flex'>
+       <div style={{backgroundColor:"white"}} className='d-flex'>
         <div style={{ backgroundColor:"#D5D5D5",width:"32%", height:"500px", margin:"20px"}} className='d-flex flex-column' > 
             <div>
                <div style={{}} className="d-flex ">
                   <div class="p-2 flex-grow-1 ">Product Catalog</div>
-                  <button><FaChevronDown/></button>
+                  <button className='abc'></button>
+                  
                </div>   
             </div>
         </div>
