@@ -6,9 +6,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #000000;
-}
 .background{
     width: 330px;
     height: 420px;
