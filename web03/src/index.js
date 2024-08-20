@@ -19,19 +19,13 @@ import Categories from './pages/Categories/category';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Nav />
-    <Cart />
-    <Footer /> */}
-    <Router>
-      <Routes>
-        <Route path='/Payment' element = {<Payment />}>
-        </Route>
-        <Route path='/Cart' element = {<Cart />}>
-        </Route>
-        <Route path='/SignUP' element = {<SignUp />}>
-        </Route>
-      </Routes>
-    </Router> 
+    {/* <Header/>
+    <Profile/> */}
+          <SignUp/>
+    {/* <Index/>
+    <App />
+    <Footer/>
+    <productDetails/> */}
   </React.StrictMode>
 );
 
