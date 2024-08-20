@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import Cart from './pages/cart/cart.js';
+import Payment from './pages/payment/Payment.js';
 import App from './App';
 import Header from './pages/Home/header';
 import Body from './pages/Home/body';
@@ -21,8 +23,11 @@ root.render(
     <Footer /> */}
     <Router>
       <Routes>
-
-        <route></route>
+        <Route path="/Category" element={<Categories/>} />
+        <Route path='/Payment' element = {<Payment />}>
+        </Route>
+        <Route path='/Cart' element = {<Cart />}>
+        </Route>
         <Route path='/SignUP' element = {<SignUp />}>
         </Route>
       </Routes>
