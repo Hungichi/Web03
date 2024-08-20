@@ -9,10 +9,8 @@ import Footer from './pages/Home/footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Index from './Auth/signin/Index';
 import SignUp from './Auth/SignUp/SignUp';
-import Footer from './page/Footer';
-import Header from './page/Header';
 import Profile from './Auth/account/Profile';
-import productDetails from './page/productDetails';
+import productDetails from './pages/Home/productDetails';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
