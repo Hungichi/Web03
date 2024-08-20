@@ -18,7 +18,7 @@ const SignUp = () => {
         <input type="email/phone" placeholder="Email/Phone" id="email"></input>
         <input type="password" placeholder="Password" id="password"></input>
         <input type="password" placeholder="Confirm Password" id="password"></input>
-        <button>Sign Up</button>
+        <button className='btn' >SignUp</button>
         <div class="socials">
           <h5 class='lines-one'>__________</h5> 
           <h6 class='h6'>Or</h6>
