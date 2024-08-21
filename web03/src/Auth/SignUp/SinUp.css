@@ -5,6 +5,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.body{
+    background-color: #000000;
+    height: 100hv;
+}
 .background{
     width: 330px;
     height: 420px;
@@ -44,7 +48,7 @@
     width: 100%;
     height: 100%;
 }
-h1{
+.h1{
     position: absolute;
     top: 250px;
     left: 100px;
@@ -56,7 +60,7 @@ h1{
     left: 300px;
     font-size: 40px;
 }
-h4{
+.h4{
     position: absolute;
     top: 355px;
     left: 470px;
@@ -84,14 +88,15 @@ form *{
     outline:none;
     border: none;
 }
-form h3{
+form .h3{
+    color: white;
     font-size: 32px;
     font-weight: 500;
     line-height: 50px;
     text-align: left;
 }
 
-input{
+.inp{
     display: block;
     height: 30px;
     width: 100%;
@@ -121,7 +126,7 @@ input{
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
-}
+} */
 a{
     text-decoration: none;
 }
@@ -157,7 +162,7 @@ label{
     color: #4D4D4D;
     left: 40px;
 }
-.h6{
+h6{
     color: #4D4D4D;
     position: absolute;
     left: 188px;
@@ -170,7 +175,7 @@ label{
     color: #4D4D4D;
     left: 235px;
 }
-.gmail{
+.img1{
     position: absolute;
     top: 400px;
     left: 175px;

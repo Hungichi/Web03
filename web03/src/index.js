@@ -13,28 +13,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Index from './Auth/signin/Index';
 import SignUp from './Auth/SignUp/SignUp';
 import Profile from './Auth/account/Profile';
-import ProductDetails from './Auth/account/productDetails';
+import productDetails from './pages/Home/productDetails';
 import Categories from './pages/Categories/category';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Nav />
-    <Cart />
-    <Footer /> */}
-    <Router>
-      <Routes>
-        {/* <Route path='/Payment' element = {<Payment />}>
-        </Route>
-        <Route path='/Cart' element = {<Cart />}>
-        </Route>
-        <Route path='/SignUp' element = {<SignUp />}>
-        </Route> */}
-        <Route path='/ProductDetails' element = {<ProductDetails/>}></Route>
-      </Routes>
-    </Router> 
-    {/* <Index/> */}
-    {/* <SignUp/> */}
-    {/* <productDetails/> */}
+    {/* <Header/>
+    <Profile/> */}
+          <SignUp/>
+    {/* <Index/>
+    <App />
+    <Footer/>
+    <productDetails/> */}
   </React.StrictMode>
 );
 

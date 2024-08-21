@@ -3,8 +3,8 @@ import './SignIn.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 const Index = () => {
   return (
-    <div className='"bg-black"'>
-      <div id='containers'> 
+    <div class="body">
+      <div class='container'> 
         <h1>Welcome Back !</h1> 
         <h3>Fps Store</h3> 
         <h4>_ _ _ _ _ _ _ _ _</h4> 
@@ -13,23 +13,23 @@ const Index = () => {
         <div class="shape"></div>
         <div class="shape"></div>
       </div>
-     <form>
-        <h3>Login</h3>
-        <input type="text" placeholder="UserName" id="username"></input>
-        <input type="password" placeholder="Password" id="password"></input>
+    <form>
+        <h3 className='h3'>Login</h3>
+        <input className='inp' type="text" placeholder="UserName" id="username"></input>
+        <input className='inp' type="password" placeholder="Password" id="password"></input>
         <div class='remember-forgot'>
           <div class='remember-me'>
-            <input type='checkbox' id='remember'></input>
+            <input className='inp' type='checkbox' id='remember'></input>
             <label for='remember'>Remember me</label>
           </div>
           <div class='forgot'>
             <a href='#'>Forgot password?</a>
           </div>
         </div>
-        <button className='btn' >Login</button>
+        <button className='btn'>Login</button>
         <div class="social">
           <h5 class='line-one'>__________</h5> 
-          <h6>Or</h6>
+          <h6 >Or</h6>
           <h5 class='line-two'>__________</h5>
         </div>
         <a  href='#'><img  src='./gmail.png'class='img-gmail' className="gmail" alt="logo" /></a>
@@ -41,7 +41,7 @@ const Index = () => {
           <p >Support</p> 
           <p >Customer Care</p>
         </div>
-     </form>
+      </form>
     </div>
   )
 }
