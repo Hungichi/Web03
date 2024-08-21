@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
@@ -6,7 +5,6 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Cart from './pages/cart/cart.js';
 import Payment from './pages/payment/Payment.js';
-import App from './App';
 import Header from './pages/Home/header';
 import Body from './pages/Home/body';
 import Footer from './pages/Home/footer';
@@ -14,25 +12,35 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Index from './Auth/signin/Index';
 import SignUp from './Auth/SignUp/SignUp';
 import Profile from './Auth/account/Profile';
-import productDetails from './page/productDetails';
+import productDetails from './pages/Home/productDetails';
+import Categories from './pages/Categories/category';
+import Iphone from './pages/Categories/iphone';
+import Laptop from './pages/Categories/laptop';
+import Headphone from './pages/Categories/headphone';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Nav />
-    <Cart />
-    <Footer /> */}
+    <Header/>  
     <Router>
       <Routes>
+      <Route path='/Headphone' element= {<Headphone/>}>
+      </Route>
+      <Route path='/Laptop' element= {<Laptop/>}>
+      </Route>
+      <Route path='/Iphone' element= {<Iphone/>}>
+      </Route>
+        <Route path='/Category' element= {<Categories/>}>
+        </Route>
         <Route path='/Payment' element = {<Payment />}>
         </Route>
         <Route path='/Cart' element = {<Cart />}>
         </Route>
         <Route path='/SignUP' element = {<SignUp />}>
         </Route>
-        <Route path='/Categories' element = {<Categories />}>
-        </Route>
       </Routes>
     </Router> 
+  <Footer/>
   </React.StrictMode>
 );
 
