@@ -33,7 +33,7 @@ function Body() {
 
 
       <div style={{backgroundColor:"#E1E1E1" , paddingBottom:"20px"}} >
-        <div className='width-100 d-flex justify-content-center ' style={{marginBottom:"20px",marginTop:"20px",height:"500px" , objectFit:"cover"}} >
+        <div className='width-100 d-flex justify-content-center ' style={{marginBottom:"20px" paddingTop:"20px",height:"500px" , objectFit:"cover"}} >
             <div style={{boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,borderRadius:"19px" ,height:"100%" , backgroundImage:`url(${background})`, width:"77%" , objectFit:"cover" }}  >
                 <div style={{marginTop:"5%",marginLeft:"6%"}} className='d-flex flex-column'>
                     <h2 className='text-light'>SALE UP TO 20% OFF</h2>
