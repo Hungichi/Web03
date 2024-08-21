@@ -1,9 +1,10 @@
 import React from 'react'
 import './SinUp.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 const SignUp = () => {
   return (
     <div className='"bg-black"'>
-       <div class='container'> 
+       <div id='container'> 
        <h1>CREATE AN ACCOUNT</h1> 
         <h3>Fps Store</h3> 
         <h4>_ _ _ _ _ _ _ _ _ _ _ _</h4> 
@@ -24,7 +25,7 @@ const SignUp = () => {
           <h6 class='h6'>Or</h6>
           <h5 class='lines-two'>__________</h5>
         </div>
-        <a  href='#'><img class='img1'  src='./gmail.png' className="gmail" alt="logo" /></a>
+        <a  href='#'><img class='gmail'  src='./gmail.png' className="gmail" alt="logo" /></a>
         <div class='registers'>
           <span>Already  Registered? <a href='./Index.js'>  Login</a></span>
         </div>

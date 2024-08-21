@@ -1,9 +1,10 @@
 import React from 'react'
 import './SignIn.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 const Index = () => {
   return (
     <div className='"bg-black"'>
-      <div class='container'> 
+      <div id='containers'> 
         <h1>Welcome Back !</h1> 
         <h3>Fps Store</h3> 
         <h4>_ _ _ _ _ _ _ _ _</h4> 
@@ -12,7 +13,7 @@ const Index = () => {
         <div class="shape"></div>
         <div class="shape"></div>
       </div>
-    <form>
+     <form>
         <h3>Login</h3>
         <input type="text" placeholder="UserName" id="username"></input>
         <input type="password" placeholder="Password" id="password"></input>
@@ -31,7 +32,7 @@ const Index = () => {
           <h6>Or</h6>
           <h5 class='line-two'>__________</h5>
         </div>
-        <a  href='#'><img  src='./gmail.png' className="gmail" alt="logo" /></a>
+        <a  href='#'><img  src='./gmail.png'class='img-gmail' className="gmail" alt="logo" /></a>
         <div class='register'>
           <span>Don't have an account ?<a href='#'> SignUp</a></span>
         </div>
@@ -40,7 +41,7 @@ const Index = () => {
           <p >Support</p> 
           <p >Customer Care</p>
         </div>
-    </form>
+     </form>
     </div>
   )
 }
