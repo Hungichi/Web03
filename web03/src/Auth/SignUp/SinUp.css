@@ -108,7 +108,7 @@ form .h3{
 ::placeholder{
     color: #666666;
 }
-/* button{
+.btn{
     margin-top: 20px;
     width: 100%;
     background: linear-gradient(

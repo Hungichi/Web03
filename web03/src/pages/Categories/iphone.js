@@ -9,7 +9,7 @@ import Dropdown2 from './Dropdown2/Dropdown2.jsx';
 
 
 
-function Categories() {
+function Iphone() {
    const items = ["Iphone", "Headphone", "Laptop",];
    const [show, setShow] = useState(false);
    const [show2, setShow2] = useState(false);
@@ -129,7 +129,7 @@ function Categories() {
             <img style={{ width:"100%",height:"100%" }} src='/img.jpg' alt="background" ></img>
          </div>
          <div style={{ width:"", backgroundColor:""}} className="d-flex ">
-                  <h2 style={{marginTop:"15px"}} class=" flex-grow-1 ">All Products</h2>
+                  <h2 style={{marginTop:"15px"}} class=" flex-grow-1 ">Iphone</h2>
                </div>
          <div style={{marginBottom:"20px"}} className='d-flex flex-wrap'>
             <div style={ {marginTop:"20px", marginRight:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }}  className='stuff' >
@@ -247,4 +247,4 @@ function Categories() {
     );
   }
   
-  export default Categories;
+  export default Iphone;

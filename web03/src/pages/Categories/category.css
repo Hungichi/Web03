@@ -1,0 +1,94 @@
+.stuff .containerAdd:hover{
+    background-color: #797979;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #f4f4f4;
+}
+.ItemName{
+    display: flex;
+    justify-content: center;
+}
+.ItemPrice{
+    display: flex;
+    justify-content: center;
+}
+.dropdown {
+    position: relative;
+  }
+.cataItem{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+    
+
+.btnH:link,
+.btnH:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 70px;
+    transition: all .2s;
+    margin-left: 22px;
+    margin-top: 5px;
+}
+
+.btnH:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btnH:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btnH-white {
+    background-color: #e4e4e4;
+    color: #777;
+}
+
+.btnH::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btnH-white::after {
+    background-color: #d1d1d1;
+}
+
+.btnH:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btnH-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
