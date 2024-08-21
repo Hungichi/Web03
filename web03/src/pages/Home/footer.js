@@ -5,7 +5,7 @@ import {FaFacebook,FaInstagram ,FaTwitter} from 'react-icons/fa';
 function footer() {
 
     return (
-    <div style={{ marginTop:"10px", height :'250px'}}  class="d-flex bg-dark height" >
+    <div style={{ marginTop:"5px", height :'250px'}}  class="d-flex bg-dark height" >
             <div class="p-2 d-flex align-items-start flex-column text-light flex-grow-1 bd-highlight" style={{height:'200px'}}>
             <h2 class=" p-2 text-light">FPS Store</h2>
             <div class="p-2 text-light">FPSstore@gmail.com</div>
@@ -24,9 +24,9 @@ function footer() {
 
         <div class="p-2 text-light flex-column d-flex bd-highlight" style={{height:'200px'}} >
             <h3 class="pt-2 text-light">Resource</h3>
-            <div class="pb-1 text-light">About Us</div>
-            <div class="pb-1 text-light">Categories</div>
-            <div class=" text-light">Help</div>
+            <div herf="" class="pb-1 text-light">About Us</div>
+            <div herf="/Category" class="pb-1 text-light">Categories</div>
+            <div herf="" class=" text-light">Help</div>
 
         </div>
     </div>

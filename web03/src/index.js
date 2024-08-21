@@ -24,6 +24,8 @@ root.render(
     <Header/>  
     <Router>
       <Routes>
+      <Route path='/Home' element= {<Body/>}>
+      </Route>
       <Route path='/Headphone' element= {<Headphone/>}>
       </Route>
       <Route path='/Laptop' element= {<Laptop/>}>
