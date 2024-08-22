@@ -29,7 +29,7 @@ function Aboutus(){
     return(
         <div style={{display:"flex", flexDirection:"column",justifyContent:"center"}} >
             <div style={{ marginTop:"10px",marginLeft:"14.5%"}}>
-                <div style={{width:"83%", height:"500px" ,backgroundImage:`url(${background})`}}>
+                <div style={{width:"83%", height:"500px" ,backgroundRepeat:"no-repeat",backgroundImage:`url(${background})`}}>
                     <img style={{marginTop:"7%"}} src={logo}></img>
                 </div>
                 <div style={{display:"flex"}} >
