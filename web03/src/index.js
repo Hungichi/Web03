@@ -17,6 +17,7 @@ import Categories from './pages/Categories/category';
 import Iphone from './pages/Categories/iphone';
 import Laptop from './pages/Categories/laptop';
 import Headphone from './pages/Categories/headphone';
+import Aboutus from './pages/AboutUs/aboutus'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,9 @@ root.render(
     <Header/>  
     <Router>
       <Routes>
+
+      <Route path='/AboutUs' element= {<Aboutus/>}>
+      </Route>
       <Route path='/Home' element= {<Body/>}>
       </Route>
       <Route path='/Headphone' element= {<Headphone/>}>

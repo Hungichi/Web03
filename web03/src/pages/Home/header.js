@@ -9,9 +9,10 @@ function header() {
             <div className='logo_container'>
                 <h2 className='text-light'>FPS Store</h2>
             </div>
-            <ul style={{width:"300px"}} className='d-flex justify-content-between '>
-                <li style={{marginLeft:"10px"}} class="mt-1 p-2"><a class="text-decoration-none text-light" href='#'>Categories</a></li>
-                <li style={{marginLeft:"10px"}} class="mt-1 p-2"><a class="text-decoration-none text-light" href='#'>About Us</a></li>
+            <ul style={{width:"400px"}} className='d-flex justify-content-between '>
+                <li style={{marginLeft:"10px"}} class="mt-1 p-2"><a class="text-decoration-none text-light" href='/Home'>Home</a></li>
+                <li style={{marginLeft:"10px"}} class="mt-1 p-2"><a class="text-decoration-none text-light" href='/Category'>Categories</a></li>
+                <li style={{marginLeft:"10px"}} class="mt-1 p-2"><a class="text-decoration-none text-light" href='/AboutUs'>About Us</a></li>
                 <li style={{marginLeft:"10px"}} class="mt-1 p-2"><a class="text-decoration-none text-light" href='#'>Help</a></li>
             </ul>
             <input style={{marginTop:"10px", borderRadius:"13px", height:"40px" , width:"305px" }} className='mt-2' type="text" placeholder="Search.."></input>
