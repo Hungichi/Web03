@@ -17,7 +17,7 @@ root.render(
     {/* <Header/>
     <Profile/> */}
     {/* <SignIn/> */}
-    <SignUp/>
+    <SignIn/>
     {/* <Index/>
     <App />
     <Footer/>
