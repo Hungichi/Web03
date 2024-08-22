@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Index = () => {
   return (
     <div class="body">
-      <div class='container'> 
-        <h1>Welcome Back !</h1> 
-        <h3>Fps Store</h3> 
+      <div class='container1'> 
+        <h1 className='h1'>Welcome Back !</h1> 
+        <h3 className='h3'>Fps Store</h3> 
         <h4>_ _ _ _ _ _ _ _ _</h4> 
       </div> 
       <div class="background">
@@ -32,7 +32,7 @@ const Index = () => {
           <h6 >Or</h6>
           <h5 class='line-two'>__________</h5>
         </div>
-        <a  href='#'><img  src='./gmail.png'class='img-gmail' className="gmail" alt="logo" /></a>
+        <a  id='img1' href='#'><img  src='./gmail.png' className="gmail" alt="logo" /></a>
         <div class='register'>
           <span>Don't have an account ?<a href='#'> SignUp</a></span>
         </div>

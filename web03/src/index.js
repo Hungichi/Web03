@@ -2,7 +2,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Cart from './pages/cart/cart.js';
 import Payment from './pages/payment/Payment.js';
@@ -10,7 +9,7 @@ import Header from './pages/Home/header';
 import Body from './pages/Home/body';
 import Footer from './pages/Home/footer';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Index from './Auth/signin/Index';
+import SignIn from './Auth/signin/Index';
 import SignUp from './Auth/SignUp/SignUp';
 
 import Profile from './Auth/account/Profile';
