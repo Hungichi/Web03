@@ -6,6 +6,7 @@ import {FaArrowRight} from 'react-icons/fa';
 import { AwesomeButton } from 'react-awesome-button';
 import 'react-awesome-button/dist/styles.css';
 import background from "./pic/background.png"
+import './body.css'
 
 
 function Body() {
@@ -31,9 +32,9 @@ function Body() {
     return (
 
 
-      <div className='Body'>
+      <div style={{backgroundColor:"#E1E1E1" , paddingBottom:"20px"}} >
         <div className='width-100 d-flex justify-content-center ' style={{marginBottom:"20px",marginTop:"20px",height:"500px" , objectFit:"cover"}} >
-            <div style={{boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,borderRadius:"19px" ,height:"100%" , backgroundImage:`url(${background})`, width:"77%" , objectFit:"cover" }}  className=''>
+            <div style={{boxShadow:"rgba(17, 17, 26, 0.1) 0px 0px 16px" ,borderRadius:"19px" ,height:"100%" , backgroundImage:`url(${background})`, width:"77%" , objectFit:"cover" }}  >
                 <div style={{marginTop:"5%",marginLeft:"6%"}} className='d-flex flex-column'>
                     <h2 className='text-light'>SALE UP TO 20% OFF</h2>
                     <h1 className='text-light'>Iphone 15 Pro Max</h1>
@@ -48,35 +49,35 @@ function Body() {
             <div style={{width:"130px"}} className="flex-shrink-1 bd-highlight">Show More<FaArrowRight/></div>
         </div>
         <Carousel responsive={responsive}>
-            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ {marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
-            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"#F1F1F1" }} >
+            <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
@@ -87,112 +88,112 @@ function Body() {
             <div style={{width:"130px"}} className="flex-shrink-1 bd-highlight">Show More<FaArrowRight/></div>
         </div>
         <div style={{marginBottom:"20px"}} className='d-flex flex-wrap'>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
-            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"#F1F1F1" }} >
+            <div style={ {marginTop:"20px", marginLeft:"30px", borderRadius:"15px", width:"170px", height:"230px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"18px",width:"130px", height:"135px" }}  src="/iphone.png"  alt="Product 1" />
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
-                <div className='d-flex justify-content-center '>
-                    <button style={{ marginTop:"5px" ,borderRadius:"10px"}} className='d-flex justify-content-center '>Add to Cart</button>
-                </div>
+                <div class="text-box">
+                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+               </div>
                 
             </div>
 
