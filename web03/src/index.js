@@ -23,7 +23,7 @@ import Help from './pages/Help/help'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>  
+    {/* <Header/>   */}
     <Router>
       <Routes>
 
@@ -49,7 +49,8 @@ root.render(
         </Route>
       </Routes>
     </Router> 
-  <Footer/>
+    <SignUp/>
+  {/* <Footer/> */}
   </React.StrictMode>
 );
 

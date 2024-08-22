@@ -4,9 +4,9 @@ const Index = () => {
   return (
     <div class="body">
       <div class='container'> 
-        <h1>Welcome Back !</h1> 
-        <h3>Fps Store</h3> 
-        <h4>_ _ _ _ _ _ _ _ _</h4> 
+        <h1 className='h1'>Welcome Back !</h1> 
+        <h3 className='h3'>Fps Store</h3> 
+        <h4 className='h4'>_ _ _ _ _ _ _ _ _</h4> 
       </div> 
       <div class="background">
         <div class="shape"></div>
