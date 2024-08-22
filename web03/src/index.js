@@ -13,7 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Index from './Auth/signin/Index';
 import SignUp from './Auth/SignUp/SignUp';
 import Profile from './Auth/account/Profile';
-import productDetails from './pages/Home/productDetails';
+
 import Categories from './pages/Categories/category';
 import Iphone from './pages/Categories/iphone';
 import Laptop from './pages/Categories/laptop';
@@ -25,7 +25,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Header/>   */}
-    <Router>
+    {/* <Router>
       <Routes>
 
       <Route path='/Help' element= {<Help/>}>
@@ -49,8 +49,9 @@ root.render(
         <Route path='/SignUP' element = {<SignUp />}>
         </Route>
       </Routes>
-    </Router> 
+    </Router>  */}
     <SignUp/>
+    {/* <Profile/> */}
   {/* <Footer/> */}
   </React.StrictMode>
 );
