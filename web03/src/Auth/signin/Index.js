@@ -3,15 +3,15 @@ import './SignIn.css';
 const Index = () => {
   return (
     <div class="body">
-      <div class='container'> 
-        <h1>Welcome Back !</h1> 
-        <h3>Fps Store</h3> 
-        <h4>_ _ _ _ _ _ _ _ _</h4> 
-      </div> 
-      <div class="background">
-        <div class="shape"></div>
-        <div class="shape"></div>
-      </div>
+        <div class='container'> 
+          <h1 className='h1'>Welcome Back !</h1> 
+          <h3 className='h3'>Fps Store</h3> 
+          <h4 className='h4'>_ _ _ _ _ _ _ _ _</h4> 
+        </div> 
+        <div class="background">
+          <div class="shape"></div>
+          <div class="shape"></div>
+        </div>
     <form>
         <h3 className='h3'>Login</h3>
         <input className='inp' type="text" placeholder="UserName" id="username"></input>

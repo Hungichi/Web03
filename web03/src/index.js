@@ -1,38 +1,27 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Cart from './pages/cart/cart.js';
-import Payment from './pages/payment/Payment.js';
 import App from './App';
-import Header from './pages/Home/header';
-import Body from './pages/Home/body';
-import Footer from './pages/Home/footer';
+import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Index from './Auth/signin/Index';
 import SignUp from './Auth/SignUp/SignUp';
+
 import Profile from './Auth/account/Profile';
-import productDetails from './page/productDetails';
+
+import SignIn from './Auth/signin/Index'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Nav />
-    <Cart />
-    <Footer /> */}
-    <Router>
-      <Routes>
-        <Route path='/Payment' element = {<Payment />}>
-        </Route>
-        <Route path='/Cart' element = {<Cart />}>
-        </Route>
-        <Route path='/SignUP' element = {<SignUp />}>
-        </Route>
-        <Route path='/Categories' element = {<Categories />}>
-        </Route>
-      </Routes>
-    </Router> 
+    {/* <Header/>
+    <Profile/> */}
+    {/* <SignUp/> */}
+    <SignIn/>
+    {/* <Index/>
+    <App />
+    <Footer/>
+    <productDetails/> */}
   </React.StrictMode>
 );
 
