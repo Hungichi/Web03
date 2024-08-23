@@ -20,7 +20,7 @@ import Laptop from './pages/Categories/laptop';
 import Headphone from './pages/Categories/headphone';
 import Aboutus from './pages/AboutUs/aboutus'
 import Help from './pages/Help/help'
-
+import Dashboard from './pages/Dashboard/dashboard';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -28,6 +28,8 @@ root.render(
     {/* <Router>
       <Routes>
 
+      <Route path='/Dashboard' element= {<Dashboard/>}>
+      </Route>
       <Route path='/Help' element= {<Help/>}>
       </Route>
       <Route path='/AboutUs' element= {<Aboutus/>}>
@@ -49,9 +51,8 @@ root.render(
         <Route path='/SignUP' element = {<SignUp />}>
         </Route>
       </Routes>
-    </Router>  */}
+    </Router> 
     <SignUp/>
-    {/* <Profile/> */}
   {/* <Footer/> */}
   </React.StrictMode>
 );

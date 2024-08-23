@@ -20,7 +20,7 @@ const Index = () => {
         <div class='remember-forgot'>
           <div class='remember-me'>
             <input className='inp' type='checkbox' id='remember'></input>
-            <label for='remember'>Remember me</label>
+            <label className='label2' for='remember'>Remember me</label>
           </div>
           <div class='forgot'>
             <a href='#'>Forgot password?</a>
