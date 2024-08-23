@@ -14,7 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Index from './Auth/signin/Index';
 import SignUp from './Auth/SignUp/SignUp';
 import Profile from './Auth/account/Profile';
-import productDetails from './pages/Home/productDetails';
+import ProductDetails from './pages/Home/productDetails';
 import Categories from './pages/Categories/category';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,7 +32,8 @@ root.render(
         </Route>
       </Routes>
     </Router>  */}
-    <Profile/>
+    {/* <Profile/> */}
+    <ProductDetails/>
   </React.StrictMode>
 );
 
