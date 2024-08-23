@@ -136,7 +136,7 @@ a:hover{
     justify-content: space-between;
     font-size: 10px;
 }
-label{
+.label2{
     position: absolute;
     top :229px;
     left: 60px;

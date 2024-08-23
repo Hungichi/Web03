@@ -136,13 +136,7 @@ a:hover{
     justify-content: space-between;
     font-size: 10px;
 }
-label{
-    position: absolute;
-    top :229px;
-    left: 60px;
-    transition: 0.2s;
-    font-size: 10px;
-}
+
 .forgot{
     left: 250px;
     top: 229px;
