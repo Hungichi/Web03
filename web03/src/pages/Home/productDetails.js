@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-multi-carousel";
-
-function productDetails() {
+import iphone1 from "./pic/ip_hong-island.png";
+import iphone2 from "./pic/ip_dy.png";
+import iphone3 from "./pic/ip_spects.png";
+import iphone4 from "./pic/ip-vang.png";
+import iphone5 from "./pic/iphone-15-den.png";
+import iphone6 from "./pic/iphone-15-xanh-duong.png"
+function ProductDetails() {
     const responsive = {
         superLargeDesktop: {
           breakpoint: { max: 4000, min: 3000 },
@@ -21,18 +26,21 @@ function productDetails() {
           items: 1
         }
     };
+    const [currentUpImg, setCurrentUpImg] = useState(iphone1)
     return (
         <div className='container-detail' style={{ maxWidth: "75%", margin: "auto", height: "80vh", marginTop: "5%", background: "white", boxShadow: "5px 5px 10px 3px rgba(0,0,0,0.3)" }}>
             <div className='left' style={{ width: "50%", padding: "30px" }}>
                 <div className='main-img' style={{ width: "auto", height: "auto" }}>
-                    <img src='/ip_hong-island.png' alt='ip' className='slide' style={{ width: "90%" }} />
+                    <img src={currentUpImg} alt='ip' className='slide' style={{ width: "90%" }} />
                 </div>
                 <div className='option flex' >
-                    <img src='/ip_dy.png' alt='ip' className='option-slide' style={{ width: "85px", height: "85px", padding: "10px", }} />
-                    <img src='/ip_spects.png' alt='ip' className='option-slide' style={{ width: "85px", height: "85px", padding: "10px" }} />
-                    <img src='/ip-vang.png' alt='ip' className='option-slide' style={{ width: "85px", height: "85px", padding: "10px" }} />
-                    <img src='/iphone-15-den.png' alt='ip' className='option-slide' style={{ width: "85px", height: "85px", padding: "10px" }} />
-                    <img src='/iphone-15-xanh-duong.png' alt='ip' className='option-slide' style={{ width: "85px", height: "85px", padding: "10px" }} />
+                    <ul className='option-ul'style={{ display: "flex", flexWrap: "wrap", width: "100%", listStyle: "none", margin: "0", padding: "0", }}>
+                   <li className='option-li'> <img src={iphone2} alt='ip' className='option-slide' style={{ width: "85px", height: "85px", padding: "10px", }} onClick={() =>setCurrentUpImg(iphone2)}/></li>
+                   <li className='option-li'><img src={iphone3} alt='ip' className='option-slide' style={{ width: "85px", height: "85px", padding: "10px"}} onClick={() =>setCurrentUpImg(iphone3)}/></li>
+                   <li className='option-li'><img src={iphone4} alt='ip' className='option-slide' style={{ width: "85px", height: "85px", padding: "10px" }} onClick={() =>setCurrentUpImg(iphone4)}/></li>
+                   <li className='option-li'><img src={iphone5} alt='ip' className='option-slide' style={{ width: "85px", height: "85px", padding: "10px" }} onClick={() =>setCurrentUpImg(iphone5)}/></li>
+                   <li className='option-li'><img src={iphone6} alt='ip' className='option-slide' style={{ width: "85px", height: "85px", padding: "10px" }} onClick={() =>setCurrentUpImg(iphone6)}/></li>
+                </ul>
                 </div>
             </div>
             <div className='right' style={{ width: "50%", padding: "50px 100px 50px 50px", position: "absolute", top: "20px", left: "650px" }}>
@@ -44,7 +52,7 @@ function productDetails() {
                     <ul className='list-vanriant' style={{ display: "flex", flexWrap: "wrap", width: "100%", listStyle: "none", margin: "0", padding: "0", }}>
                         <li className='item-variant' style={{border:"1px solid #d1d5db", marginRight: "10px", padding: "5px 0", alignItems: "center", background: "#fff", borderRadius: "8px", color: "#444", cursor: "pointer", display: "flex", flexDirection: "column", fontSize: "12px", gap: "10px", justifyContent: "center", margin: "0 0 10px", overflow: "hidden", position: "relative", textDecoration: "none", width: "calc(34% - 7%)" }}>
                             <a title='Vang' className='button_change-color is flex is align-items-center' style={{ border:"1px solid #fff",gap: "5px", justifyContent: "flex-start", padding: "5px", width: "100%", display: "flex", alignItems: "center", color: "#485fc7", cursor: "pointer", textDecoration: "none",border: "1px solid #d1d5d" }}>
-                                <img src='/ip-vang.png' alt='iP' className='img-detail' style={{ height: "50px", width: "50px" }} />
+                                <img src={iphone4} alt='iP' className='img-detail' style={{ height: "50px", width: "50px" }} />
                                 <div class='is flex is flex-direction-column'>
                                     <strong className='item-variant-name' style={{ fontSize: "16px", color: "#444", textAlign: "left", display: "-webkit-box", overflow: "hidden", WebkitLineClamp: "3", width: "100%", fontWeight: "700" }}>Vàng</strong>
                                     <span className='item-variant-price' style={{ color: "#444", fontSize: "15px", textAlign: "left", fontStyle: "inherit", fontWeight: "inherit" }}>$199</span>
@@ -53,7 +61,7 @@ function productDetails() {
                         </li>
                         <li className='item-variant' style={{border:"1px solid #d1d5db", marginRight: "10px", padding: "5px 0", alignItems: "center", background: "#fff", borderRadius: "8px", color: "#444", cursor: "pointer", display: "flex", flexDirection: "column", fontSize: "12px", gap: "10px", justifyContent: "center", margin: "0 0 10px", overflow: "hidden", position: "relative", textDecoration: "none", width: "calc(34% - 7%)" }}>
                             <a title='Den' className='button_change-color is flex is align-items-center' style={{ gap: "5px", justifyContent: "flex-start", padding: "5px", width: "100%", display: "flex", alignItems: "center", color: "#485fc7", cursor: "pointer", textDecoration: "none" }}>
-                                <img src='/iphone-15-den.png' alt='iP' className='img-detail' style={{ height: "50px", width: "50px" }} />
+                                <img src={iphone5} alt='iP' className='img-detail' style={{ height: "50px", width: "50px" }} />
                                 <div class='is flex is flex-direction-column'>
                                     <strong className='item-variant-name' style={{ fontSize: "16px", color: "#444", textAlign: "left", display: "-webkit-box", overflow: "hidden", WebkitLineClamp: "3", width: "100%", fontWeight: "700" }}>Đen</strong>
                                     <span className='item-variant-price' style={{ color: "#444", fontSize: "15px", textAlign: "left", fontStyle: "inherit", fontWeight: "inherit" }}>$199</span>
@@ -62,7 +70,7 @@ function productDetails() {
                         </li>
                         <li className='item-variant' style={{border:"1px solid #d1d5db", marginLeft: "20px", padding: "5px 0", alignItems: "center", background: "#fff", borderRadius: "8px", color: "#444", cursor: "pointer", display: "flex", flexDirection: "column", fontSize: "12px", gap: "10px", justifyContent: "center", margin: "0 0 10px", overflow: "hidden", position: "relative", textDecoration: "none", width: "calc(34% - 7%)" }}>
                             <a title='Vang' className='button_change-color is flex is align-items-center' style={{ gap: "5px", justifyContent: "flex-start", padding: "5px", width: "100%", display: "flex", alignItems: "center", color: "#485fc7", cursor: "pointer", textDecoration: "none" }}>
-                                <img src='/iphone-15-xanh-duong.png' alt='iP' className='img-detail' style={{ height: "50px", width: "50px" }} />
+                                <img src={iphone6} alt='iP' className='img-detail' style={{ height: "50px", width: "50px" }} />
                                 <div class='is flex is flex-direction-column'>
                                     <strong className='item-variant-name' style={{ fontSize: "16px", color: "#444", textAlign: "left", display: "-webkit-box", overflow: "hidden", WebkitLineClamp: "3", width: "100%", fontWeight: "700" }}>Xanh</strong>
                                     <span className='item-variant-price' style={{ color: "#444", fontSize: "15px", textAlign: "left", fontStyle: "inherit", fontWeight: "inherit" }}>$199</span>
@@ -139,4 +147,4 @@ function productDetails() {
     )
 }
 
-export default productDetails
+export default PoductDetails
