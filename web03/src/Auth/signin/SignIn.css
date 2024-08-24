@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 .body{
-    background-color: #000000;
+    background-color: #0000;
     height: 100vh;
 }
 .background{
@@ -61,14 +61,14 @@
     left: 370px;
     font-size: 40px;
 }
-.container1 h4{
+.h4{
     position: absolute;
     top: 355px;
     left: 540px;
     font-size: 30px;
 }
 
-form{
+.form-signin{
     height: 520px;
     width: 400px;
     background-color: rgba(61, 60, 60, 0.13);
@@ -82,14 +82,14 @@ form{
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 50px 35px;
 }
-form *{
+.form-signin *{
     font-family: 'Poppins',sans-serif;
     color: #ffffff;
     letter-spacing: 0.5px;
     outline:none;
     border: none;
 }
-form h3{
+.form-signin h3{
     font-size: 32px;
     font-weight: 500;
     line-height: 50px;
@@ -139,7 +139,7 @@ a:hover{
     justify-content: space-between;
     font-size: 10px;
 }
-.label2{
+.label-signin{
     position: absolute;
     top :229px;
     left: 60px;
@@ -162,7 +162,7 @@ a:hover{
     color: #4D4D4D;
     left: 40px;
 }
-h6{
+.h6{
     color: #4D4D4D;
     position: absolute;
     left: 188px;
@@ -175,7 +175,7 @@ h6{
     color: #4D4D4D;
     left: 235px;
 }
-#img1{
+.gmail{
     position: absolute;
     top: 350px;
     left: 175px;

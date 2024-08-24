@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .body{
-    background-color: #000000;
+    background-color: #0000;
     height: 100vh;
 }
 .background{
@@ -64,7 +64,7 @@
     font-size: 30px;
 }
 
-form{
+.form-signup{
     height: 520px;
     width: 400px;
     background-color: rgba(61, 60, 60, 0.13);
@@ -78,15 +78,14 @@ form{
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 50px 35px;
 }
-form *{
+.form-signup *{
     font-family: 'Poppins',sans-serif;
     color: #ffffff;
     letter-spacing: 0.5px;
     outline:none;
     border: none;
 }
-form .h3{
-    color: white;
+.form-signup h3{
     font-size: 32px;
     font-weight: 500;
     line-height: 50px;
@@ -136,7 +135,13 @@ a:hover{
     justify-content: space-between;
     font-size: 10px;
 }
-
+/* label{
+    position: absolute;
+    top :229px;
+    left: 60px;
+    transition: 0.2s;
+    font-size: 10px;
+} */
 .forgot{
     left: 250px;
     top: 229px;

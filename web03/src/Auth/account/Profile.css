@@ -1,46 +1,22 @@
-/* body {
-    background-color: #fff;
-} này mà kêu sửa rôi hã?*/ 
-
-.form-control:focus {
-    box-shadow: none;
-    border-color: #BA68C8
+.menu-link:first-child{
+    color:#fff;
+    background-color: #536dfe;
 }
-
-.profile-button {
-    background: rgb(99, 39, 120);
-    box-shadow: none;
-    border: none
+.menu-link:hover{
+    background-color: #f1f5f9;
+    color: #1e293b;
 }
-
-.profile-button:hover {
-    background: #682773
-}
-
-.profile-button:focus {
-    background: #682773;
-    box-shadow: none
-}
-
-.profile-button:active {
-    background: #682773;
-    box-shadow: none
-}
-
-.back:hover {
-    color: #682773;
-    cursor: pointer
-}
-
-.labels {
-    font-size: 16px;
-    color:#000;
-    text-align: center;
-}
-
-.add-experience:hover {
-    background: #BA68C8;
+.menu-link:first-child:hover{
+    background-color: #536dfe;
     color: #fff;
-    cursor: pointer;
-    border: solid 1px #BA68C8
+}
+.button-cancel:hover{
+    background-color: #fff;
+}
+.button-save:hover{
+    background-color: #4053c9;
+}
+.input-container:focus{
+    outline: none;
+    border: 1.5px soild #536dfe
 }
