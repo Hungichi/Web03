@@ -1,5 +1,6 @@
 import React from 'react'
 import './SignIn.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 const Index = () => {
   return (
     <div className='body'>
@@ -25,13 +26,13 @@ const Index = () => {
             <a href='#'>Forgot password?</a>
           </div>
         </div>
-        <button className='btn' >Login</button>
+        <button className='btn'>Login</button>
         <div class="social">
           <h5 class='line-one'>__________</h5> 
           <h6 className='h6'>Or</h6>
           <h5 class='line-two'>__________</h5>
         </div>
-        <a  href='#'><img  src='./gmail.png' className="gmail" alt="logo" /></a>
+        <a  id='img1' href='#'><img  src='./gmail.png' className="gmail" alt="logo" /></a>
         <div class='register'>
           <span>Don't have an account ?<a href='#'> SignUp</a></span>
         </div>
@@ -40,7 +41,7 @@ const Index = () => {
           <p >Support</p> 
           <p >Customer Care</p>
         </div>
-    </form>
+      </form>
     </div>
   )
 }

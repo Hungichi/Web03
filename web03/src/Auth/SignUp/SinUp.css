@@ -158,7 +158,7 @@ a:hover{
     color: #4D4D4D;
     left: 40px;
 }
-.h6{
+h6{
     color: #4D4D4D;
     position: absolute;
     left: 188px;
@@ -171,7 +171,7 @@ a:hover{
     color: #4D4D4D;
     left: 235px;
 }
-.img1{
+#img1{
     position: absolute;
     top: 390px;
     left: 175px;

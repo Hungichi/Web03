@@ -5,9 +5,9 @@ import {FaFacebook,FaInstagram ,FaTwitter} from 'react-icons/fa';
 function footer() {
 
     return (
-    <div style={{height :'250px'}}  class="d-flex bg-dark height" >
+    <div style={{ height :'250px'}}  class="d-flex bg-dark height" >
             <div class="p-2 d-flex align-items-start flex-column text-light flex-grow-1 bd-highlight" style={{height:'200px'}}>
-            <h1 class=" p-2 text-light">FPS Store</h1>
+            <h2 class=" p-2 text-light">FPS Store</h2>
             <div class="p-2 text-light">FPSstore@gmail.com</div>
             <div class="p-2 d-flex  text-light">
                 <FaFacebook style={{fontSize:"18"}} ></FaFacebook>
@@ -19,14 +19,14 @@ function footer() {
                     <FaTwitter style={{fontSize:"16", paddingTop : "1px"}} className=' text-black'/>
                 </div>
 
-            </div>
+                </div>
             </div>
 
         <div class="p-2 text-light flex-column d-flex bd-highlight" style={{height:'200px'}} >
-            <h2 class="pt-2 text-light">Resource</h2>
-            <div class="pb-1 text-light">About Us</div>
-            <div class="pb-1 text-light">Categories</div>
-            <div class=" text-light">Help</div>
+            <h3 class="pt-2 text-light">Resource</h3>
+            <div herf="/AboutUs" class="pb-1 text-light">About Us</div>
+            <div herf="/Category" class="pb-1 text-light">Categories</div>
+            <div herf="/Help" class=" text-light">Help</div>
 
         </div>
     </div>

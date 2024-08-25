@@ -21,10 +21,10 @@ const SignUp = () => {
         <button className='btn' >SignUp</button>
         <div class="socials">
           <h5 class='lines-one'>__________</h5> 
-          <h6 class='h6'>Or</h6>
+          <h6 >Or</h6>
           <h5 class='lines-two'>__________</h5>
         </div>
-        <a  href='#'><img class='img1'  src='./gmail.png' className="gmail" alt="logo" /></a>
+        <a  href='#'><img id='img1'  src='./gmail.png' className="gmail" alt="logo" /></a>
         <div class='registers'>
           <span>Already  Registered? <a href='./Index.js'>  Login</a></span>
         </div>
