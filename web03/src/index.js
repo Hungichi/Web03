@@ -11,9 +11,7 @@ import Footer from './pages/Home/footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import SignIn from './Auth/signin/Index';
 import SignUp from './Auth/SignUp/SignUp';
-
 import Profile from './Auth/account/Profile';
-
 import Categories from './pages/Categories/category';
 import Iphone from './pages/Categories/iphone';
 import Laptop from './pages/Categories/laptop';
@@ -21,6 +19,7 @@ import Headphone from './pages/Categories/headphone';
 import Aboutus from './pages/AboutUs/aboutus'
 import Help from './pages/Help/help'
 import Dashboard from './pages/Dashboard/dashboard';
+import ProductList from './pages/ProductList/productList';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -54,6 +53,7 @@ root.render(
     </Router> 
     <SignUp/>
   {/* <Footer/> */}
+<ProductList/>
   </React.StrictMode>
 );
 
