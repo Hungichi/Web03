@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from ''
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-multi-carousel";
 import iphone1 from "./ip_dy.png";
@@ -86,9 +86,9 @@ function ProductDetails() {
                 <div className='detail-quality' style={{ marginTop: "85px" }}>
                     <label className='label-detail' for="size" style={{ color: "red", fontSize: "20px", fontWeight: "400" }}>Number</label>
                     <form className='form-detail' style={{ display: "flex" }}>
-                        <div className='qtyMinus' style={{ width: "34px", height: "34px", background: "#212529", textAlign: "center", fontSize: "19px", lineHeight: "36px", color: "#fff", cursor: "pointer", borderRadius: "3px 0 0 3px ", position: "absolute", top: "570px", left: "200px" }}>-</div>
+                        <div className='qtyMinus' style={{ width: "34px", height: "34px", background: "#212529", textAlign: "center", fontSize: "19px", lineHeight: "36px", color: "#fff", cursor: "pointer", borderRadius: "3px 0 0 3px ", position: "absolute", top: "570px", left: "200px" }} onClick={(handleMinus())}>-</div>
                         <input type='text' name='quality' value="1" className='inp-detail' style={{ width: "60px", textAlign: "center", position: "absolute", top: "571px", left: "234px", height: "33px" }} />
-                        <div className='qtyPlus' style={{ width: "34px", height: "34px", background: "#212529", textAlign: "center", fontSize: "19px", lineHeight: "36px", color: "#fff", cursor: "pointer", borderRadius: "0px 3px 3px 0px ", position: "absolute", top: "570px", left: "290px" }}>+</div>
+                        <div className='qtyPlus' style={{ width: "34px", height: "34px", background: "#212529", textAlign: "center", fontSize: "19px", lineHeight: "36px", color: "#fff", cursor: "pointer", borderRadius: "0px 3px 3px 0px ", position: "absolute", top: "570px", left: "290px" }} onClick={(hanlePlus())}>+</div>
                     </form>
                 </div>
                 <div class="addcart-area" style={{ display: "flex", marginTop: "55px", }}>

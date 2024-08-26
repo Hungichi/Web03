@@ -1,7 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './SignIn.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-const Index = () => {
+import axios from "axios";
+function Index() {
+  // const history = body.js
+  const [username,setUser] = useState('')
+  const [password, setPassword] = useState('')
+
+  async function submit(e) {
+    e.prevenDefault();
+
+    try{
+      await axios.post("http://localhost:800/",{
+        username,password
+      })
+      .then(res =>{
+        if(res.data = "exist"){
+
+        }
+      })
+    }
+    catch(e){
+      console.log(e);
+    }
+  }
   return (
     <div className='body'>
       <div class='container1'> 
@@ -15,8 +37,8 @@ const Index = () => {
       </div>
     <form className='form-signin'>
         <h3 className='h3'>Login</h3>
-        <input className='inp' type="text" placeholder="UserName" id="username"></input>
-        <input className="inp"type="password" placeholder="Password" id="password"></input>
+        <input className='inp' type="text" placeholder="UserName" id="username" onChange={(e) => {setUser(e.target.value)}}></input>
+        <input className="inp"type="password" placeholder="Password" id="password" onChange={(e) =>{setPassword(e.target.value)}}></input>
         <div class='remember-forgot'>
           <div class='remember-me'>
             <input className="inp" type='checkbox' id='remember'></input>
@@ -26,7 +48,7 @@ const Index = () => {
             <a href='#'>Forgot password?</a>
           </div>
         </div>
-        <button className='btn'>Login</button>
+        <button className='btn' type='submit' onClick={{submit}}>Login</button>
         <div class="social">
           <h5 class='line-one'>__________</h5> 
           <h6 className='h6'>Or</h6>
@@ -34,7 +56,7 @@ const Index = () => {
         </div>
         <a  id='img1' href='#'><img  src='./gmail.png' className="gmail" alt="logo" /></a>
         <div class='register'>
-          <span>Don't have an account ?<a href='#'> SignUp</a></span>
+          <span>Don't have an account ?<a href='./SignUp.js'> SignUp</a></span>
         </div>
         <div class='term'>
           <p >Terms & Conditions</p> 
