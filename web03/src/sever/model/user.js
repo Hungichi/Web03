@@ -1,10 +1,25 @@
-const mongoose = require("../controllers/userController");
+const mongoose = require('mongoose');
+
+
+
+mongoose.connect('mongodb://localhost:27017/SignInSignUpProfileTutorial')
+.then(() =>{
+    console.log("mongoo connected");
+})
+.catch(() =>{
+    console.log("failed to connect")
+})
+
+
 
 const userSchema = new mongoose.Schema({
-    username:String,
-    email:String,
-    password:String,
-    confirmpassword:String,
-    role:{type:String, enum:['admin','customer'], default:"customer"}
+  username: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  phone:{type:String, require:true , unique:true},
+  
 });
-module.exports = mongoose.model("User", userSchema);
+
+const collection = mongoose.model('User', userSchema)
+
+module.exports = collection

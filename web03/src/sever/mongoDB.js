@@ -1,28 +1,40 @@
-const express = require('express');
-const cors =    require('cors');
-const app = express();
 const mongoose = require('mongoose');
-var bodyParser = require('body-parser');
-const morgan = require('morgan');
-const dotenv = require('dotenv');
-dotenv.config()
-//chuyển về dạng json
-app.use(bodyParser.json({limit:"50mb"}));
-app.use(cors());
-app.use(morgan("common"));
 
 
-// Connect to database-
-const conn = mongoose.connect((process.env.MONGODB_URL));
-if (conn) {
-    console.log("Connected to the database");
+
+mongoose.connect('mongodb://localhost:27017/SignInSignUpProfileTutorial')
+.then(() =>{
+    console.log("mongoo connected");
+})
+.catch(() =>{
+    console.log("failed to connect")
+})
+
+
+
+const userSchema = new mongoose.Schema({
+  username: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  phone:{type:String, require:true , unique:true},
+  
+});
+
+const collection = mongoose.model('User', userSchema)
+
+module.exports = collection
+
+
+data = {
+  username:"customer",
+  password:"customer123",
+  email:"customer@gmail.com",
+  phone:"1234",
+
 }
 
 
-//tạo 1 get request
-app.get('/api', function (req, res) {
-    res.status(200).json("Hello, world!");
-})
-app.listen(3000, ()=>{
-    console.log("Server is listening on port")
-});
+
+
+
+collection.insertMany([data])
