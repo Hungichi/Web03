@@ -7,7 +7,7 @@ import iphone3 from "./ip_spects.png";
 import iphone4 from "./ip-vang.png";
 import iphone5 from "./iphone-15-den.png";
 import iphone6 from "./iphone-15-xanh-duong.png";
-
+import App from "../../test";
 function ProductDetails() {
     const responsive = {
         superLargeDesktop: {
@@ -92,7 +92,7 @@ function ProductDetails() {
                     </form>
                 </div>
                 <div class="addcart-area" style={{ display: "flex", marginTop: "55px", }}>
-                    <button type="button" id="add-to-cart" class="addCard-button" name="add" style={{ background: "#000", border: "1px solid #000 ", color: "#fff", width: "50%", borderRadius: "4px", padding: "15px 20px", fontWeight: "600", fontSize: "15px" }} >
+                    <button type="button" id="add-to-cart" class="addCard-button" name="add" style={{ background: "#000", border: "1px solid #000 ", color: "#fff", width: "50%", borderRadius: "4px", padding: "15px 20px", fontWeight: "600", fontSize: "15px" }} onClick={App(addToCart(username, product))}>
                         <span>Add to card</span>
                     </button>
                     <button type="button" id="buy-now" class="buy-button" name="add" style={{ marginLeft: "15px", background: "red", border: "1px solid red ", color: "#fff", width: "50%", borderRadius: "4px", padding: "15px 20px", fontWeight: "600", fontSize: "15px" }} >
