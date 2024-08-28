@@ -5,6 +5,7 @@
     border: 2px solid #f4f4f4;
 }
 .ItemName{
+    height: 45px;;
     display: flex;
     justify-content: center;
 }
@@ -19,6 +20,35 @@
     text-decoration: none;
     color: black;
 }
+.stuff{
+    position: relative;
+    margin-top: 20px;
+    margin-right: 25px;
+    border-radius: 15px;
+    width: 170px;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+}
+.stuff img.back{
+    margin-left: 18px;
+    width: 130px;
+    height: 135px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity .2s;
+    object-fit: cover;
+    overflow: hidden;
+}
+.stuff:hover img.back{
+    opacity: 1;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 
 
 

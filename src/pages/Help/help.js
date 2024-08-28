@@ -19,7 +19,7 @@ function Help(){
     return (
         <div style={{backgroundColor:"black", paddingBottom:"20px" ,display:"flex", flexDirection:"column",justifyContent:"center"}} >
             <div style={{marginLeft:"8%"}}>
-                <div style={{width:"92%", height:"600px" ,backgroundImage:`url(${background})`,display:"flex", flexDirection:"column",justifyContent:"center"}}>
+                <div style={{backgroundRepeat:"none",width:"92%", height:"600px" ,backgroundImage:`url(${background})`,display:"flex", flexDirection:"column",justifyContent:"center"}}>
                 
 
 <MDBRow className='d-flex justify-content-center align-items-center h-100'>

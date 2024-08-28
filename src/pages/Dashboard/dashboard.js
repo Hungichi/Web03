@@ -6,7 +6,31 @@ import Dropdown from "../Categories/Dropdown/Dropdown.jsx"
 import DropdownItem from "../Categories/DropdownItem/DropdownItem.jsx";
 import Dropdown2 from "../Categories/Dropdown2/Dropdown2.jsx";
 
+import axios from 'axios';
 function Dashboard(){
+
+    const [image, setImage] = useState();
+    const [allImage, setAllImage] = useState(null);
+    
+    const submitImage = async(e)=>{
+        e.preventDefault();
+
+        const formData = new FormData();
+        formData.append("image", image);
+        
+        const result = await axios.post(
+            "http://localhost:3000/upload-image",
+            formData,
+            {
+                headers: { "Content-Type": "multipart/form-data"},
+            }
+        )
+    }
+
+    const onInputChange=(e)=>{
+        console.log(e.target.files[0]);
+        setImage(e.target.files[0])
+    }
     const items = ["Iphone", "Headphone", "Laptop",];
     return(
         <div style={{backgroundColor:"#E1E1E1"}} >
@@ -26,8 +50,9 @@ function Dashboard(){
                         <label for="images" class="drop-container" id="dropcontainer">
                             <span  class="drop-title">Drop files here </span>
                             or
-                            <input type="file" id="images" style={{border:"none",marginLeft:"10px",marginRight:"10px",}}></input>
+                            <input onChange={onInputChange} accept='image/*' type="file" id="images" style={{border:"none",marginLeft:"10px",marginRight:"10px",}}></input>
                         </label>
+                        <button type='submit'>Submit</button>
                     </div>
                 </div>
 
