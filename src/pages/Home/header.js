@@ -18,7 +18,7 @@ function header() {
             <input style={{marginTop:"10px", borderRadius:"13px", height:"40px" , width:"305px" }} className='mt-2' type="text" placeholder="Search.."></input>
             <div>
               <FaShoppingCart style={{ margin:"15px",fontSize:"20px" ,color:"white"}}></FaShoppingCart>
-              <FaRegUserCircle style={{margin:"15px",fontSize:"20px" ,color:"white"}}></FaRegUserCircle>
+              <FaRegUserCircle href='/SignUP' style={{margin:"15px",fontSize:"20px" ,color:"white"}}></FaRegUserCircle>
             </div>
             
 
