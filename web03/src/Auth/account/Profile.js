@@ -7,7 +7,7 @@ const Profile = () => {
       <div className='profile' style={{ flex: "1", marginRight: "10px", backgroundColor: "#fff", boxShadow: "rgba(0,0,0,0.16)0px 1px 4px", borderRadius: "5px", height: "max-content" }}>
         <div className='profile-header' style={{ display: "flex", marginLeft: "15px", }}>
           <img src='./user.png' alt="profile" className='profile-img' style={{ width: "100px", height: "100px", borderRadius: "10px", margin: "10px" }} />
-          <div class="file-primary" style={{position:"relative", overflow:"hidden",marginTop:"110px", width:"100px",border:"none",borderRadius:"0",fontSize:"15px",background:"#212529b8", color:"white",position:"absolute",left:"35px"}}>
+          <div className="file-primary" style={{position:"relative", overflow:"hidden",marginTop:"110px", width:"100px",border:"none",borderRadius:"0",fontSize:"15px",background:"#212529b8", color:"white",position:"absolute",left:"35px"}}>
             Change Photo
             <input type="file" name="file" style={{position:"absolute", opacity:"0", right:"0", top:"0"}} />
           </div>
@@ -29,28 +29,28 @@ const Profile = () => {
           </div>
         </div>
         <hr />
-        <div class="col-md-9">
+        <div className="col-md-9">
 
-          <div class="container">
+          <div className="container">
 
             <form className='form-profile' style={{ width: "550px", fontWeight: "bold", padding: "10px" }}>
 
-              <div class="form-group">
+              <div className="form-group">
 
                 <label className='lab-profile' for="userName" style={{ fontSize: "20px", color: "#8f9096", }}>UserName</label>
-                <input className='inp-profile' type="text" class="form-control" id="userName" placeholder='Name' style={{ padding: "10px" }} />
+                <input className='inp-profile' type="text"  id="userName" placeholder='Name' style={{ padding: "10px" }} />
 
               </div>
-              <div class="form-group">
+              <div className="form-group">
 
                 <label className='lab-profile' for="phone" style={{ fontSize: "20px", color: "#8f9096" }}>Phone</label>
-                <input className='inp-profile' type="text" class="form-control" id="phone" placeholder='0987-564-141' style={{ padding: "10px" }} />
+                <input className='inp-profile' type="text" id="phone" placeholder='0987-564-141' style={{ padding: "10px" }} />
 
               </div>
-              <div class="form-group">
+              <div className="form-group">
 
                 <label className='lab-profile' for="pass" style={{ fontSize: "20px", color: "#8f9096" }}>Password</label>
-                <input className='inp-profile' type="password" class="form-control" id="pass" placeholder='*********' style={{ padding: "10px" }} />
+                <input className='inp-profile' type="password"  id="pass" placeholder='*********' style={{ padding: "10px" }} />
 
               </div>
             </form>

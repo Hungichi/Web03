@@ -37,8 +37,8 @@ function Help(){
         
         <div style={{ marginTop:"20px",display:"flex", width:"92%" }} >
         <p className="text-white-50 mb-5">Thank you for the information, we will reply as soon as possible</p>
-        <div class="text-boxhelp">
-                  <a href="#" class="btn2 btn2-white btn2-animate">submit</a>
+        <div className="text-boxhelp">
+                  <a href="#" className="btn2 btn2-white btn2-animate">submit</a>
                </div>
 
         </div>

@@ -1,4 +1,4 @@
-import React, { useState } from ''
+import React, { useState } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-multi-carousel";
 import iphone1 from "./ip_dy.png";
@@ -27,7 +27,15 @@ function ProductDetails() {
           items: 1
         }
     };
-    const [currentUpImg, setCurrentUpImg] = useState(iphone1)
+    const [currentUpImg, setCurrentUpImg] = useState(iphone1);
+    const [quality , setQuality] = useState(1);
+    const handlePlus = () => {
+        setQuality(prevQuality => prevQuality +1);
+    };
+    const handleMinus = () => {
+        setQuality(prevQuality =>Math.max( prevQuality -1 ,1));
+    };
+
     return (
         <div className='container-detail' style={{ maxWidth: "75%", margin: "auto", height: "80vh", marginTop: "5%", background: "white", boxShadow: "5px 5px 10px 3px rgba(0,0,0,0.3)" }}>
             <div className='left' style={{ width: "50%", padding: "30px" }}>
@@ -56,7 +64,7 @@ function ProductDetails() {
                         <li className='item-variant' style={{border:"1px solid #d1d5db", marginRight: "10px", padding: "5px 0", alignItems: "center", background: "#fff", borderRadius: "8px", color: "#444", cursor: "pointer", display: "flex", flexDirection: "column", fontSize: "12px", gap: "10px", justifyContent: "center", margin: "0 0 10px", overflow: "hidden", position: "relative", textDecoration: "none", width: "calc(34% - 7%)" }}>
                             <a title='Vang' className='button_change-color is flex is align-items-center' style={{ border:"1px solid #fff",gap: "5px", justifyContent: "flex-start", padding: "5px", width: "100%", display: "flex", alignItems: "center", color: "#485fc7", cursor: "pointer", textDecoration: "none",border: "1px solid #d1d5d" }}>
                                 <img src={iphone4} alt='iP' className='img-detail' style={{ height: "50px", width: "50px" }} />
-                                <div class='is flex is flex-direction-column'>
+                                <div className='is flex is flex-direction-column'>
                                     <strong className='item-variant-name' style={{ fontSize: "16px", color: "#444", textAlign: "left", display: "-webkit-box", overflow: "hidden", WebkitLineClamp: "3", width: "100%", fontWeight: "700" }}>Vàng</strong>
                                     <span className='item-variant-price' style={{ color: "#444", fontSize: "15px", textAlign: "left", fontStyle: "inherit", fontWeight: "inherit" }}>$199</span>
                                 </div>
@@ -65,7 +73,7 @@ function ProductDetails() {
                         <li className='item-variant' style={{border:"1px solid #d1d5db", marginRight: "10px", padding: "5px 0", alignItems: "center", background: "#fff", borderRadius: "8px", color: "#444", cursor: "pointer", display: "flex", flexDirection: "column", fontSize: "12px", gap: "10px", justifyContent: "center", margin: "0 0 10px", overflow: "hidden", position: "relative", textDecoration: "none", width: "calc(34% - 7%)" }}>
                             <a title='Den' className='button_change-color is flex is align-items-center' style={{ gap: "5px", justifyContent: "flex-start", padding: "5px", width: "100%", display: "flex", alignItems: "center", color: "#485fc7", cursor: "pointer", textDecoration: "none" }}>
                                 <img src={iphone5} alt='iP' className='img-detail' style={{ height: "50px", width: "50px" }} />
-                                <div class='is flex is flex-direction-column'>
+                                <div className='is flex is flex-direction-column'>
                                     <strong className='item-variant-name' style={{ fontSize: "16px", color: "#444", textAlign: "left", display: "-webkit-box", overflow: "hidden", WebkitLineClamp: "3", width: "100%", fontWeight: "700" }}>Đen</strong>
                                     <span className='item-variant-price' style={{ color: "#444", fontSize: "15px", textAlign: "left", fontStyle: "inherit", fontWeight: "inherit" }}>$199</span>
                                 </div>
@@ -74,7 +82,7 @@ function ProductDetails() {
                         <li className='item-variant' style={{border:"1px solid #d1d5db", marginLeft: "20px", padding: "5px 0", alignItems: "center", background: "#fff", borderRadius: "8px", color: "#444", cursor: "pointer", display: "flex", flexDirection: "column", fontSize: "12px", gap: "10px", justifyContent: "center", margin: "0 0 10px", overflow: "hidden", position: "relative", textDecoration: "none", width: "calc(34% - 7%)" }}>
                             <a title='Vang' className='button_change-color is flex is align-items-center' style={{ gap: "5px", justifyContent: "flex-start", padding: "5px", width: "100%", display: "flex", alignItems: "center", color: "#485fc7", cursor: "pointer", textDecoration: "none" }}>
                                 <img src={iphone6} alt='iP' className='img-detail' style={{ height: "50px", width: "50px" }} />
-                                <div class='is flex is flex-direction-column'>
+                                <div className='is flex is flex-direction-column'>
                                     <strong className='item-variant-name' style={{ fontSize: "16px", color: "#444", textAlign: "left", display: "-webkit-box", overflow: "hidden", WebkitLineClamp: "3", width: "100%", fontWeight: "700" }}>Xanh</strong>
                                     <span className='item-variant-price' style={{ color: "#444", fontSize: "15px", textAlign: "left", fontStyle: "inherit", fontWeight: "inherit" }}>$199</span>
                                 </div>
@@ -88,10 +96,10 @@ function ProductDetails() {
                     <form className='form-detail' style={{ display: "flex" }}>
                         <div className='qtyMinus' style={{ width: "34px", height: "34px", background: "#212529", textAlign: "center", fontSize: "19px", lineHeight: "36px", color: "#fff", cursor: "pointer", borderRadius: "3px 0 0 3px ", position: "absolute", top: "570px", left: "200px" }} onClick={(handleMinus())}>-</div>
                         <input type='text' name='quality' value="1" className='inp-detail' style={{ width: "60px", textAlign: "center", position: "absolute", top: "571px", left: "234px", height: "33px" }} />
-                        <div className='qtyPlus' style={{ width: "34px", height: "34px", background: "#212529", textAlign: "center", fontSize: "19px", lineHeight: "36px", color: "#fff", cursor: "pointer", borderRadius: "0px 3px 3px 0px ", position: "absolute", top: "570px", left: "290px" }} onClick={(hanlePlus())}>+</div>
+                        <div className='qtyPlus' style={{ width: "34px", height: "34px", background: "#212529", textAlign: "center", fontSize: "19px", lineHeight: "36px", color: "#fff", cursor: "pointer", borderRadius: "0px 3px 3px 0px ", position: "absolute", top: "570px", left: "290px" }} onClick={(handlePlus())}>+</div>
                     </form>
                 </div>
-                <div class="addcart-area" style={{ display: "flex", marginTop: "55px", }}>
+                <div className="addcart-area" style={{ display: "flex", marginTop: "55px", }}>
                     <button type="button" id="add-to-cart" class="addCard-button" name="add" style={{ background: "#000", border: "1px solid #000 ", color: "#fff", width: "50%", borderRadius: "4px", padding: "15px 20px", fontWeight: "600", fontSize: "15px" }} >
                         <span>Add to card</span>
                     </button>

@@ -1,40 +1,27 @@
+const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
+const authRoutes = require('./router/userRouter');
 
+const app = express();
+app.use(express.json());
+app.use(cors());
 
-
-mongoose.connect('mongodb://localhost:27017/SignInSignUpProfileTutorial')
-.then(() =>{
-    console.log("mongoo connected");
+mongoose.connect('mongodb://localhost:27017/SignInSignUpProfileTutorial', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 })
-.catch(() =>{
-    console.log("failed to connect")
+.then(() => {
+  console.log("MongoDB connected");
 })
-
-
-
-const userSchema = new mongoose.Schema({
-  username: { type: String, required: true, unique: true },
-  password: { type: String, required: true },
-  email: { type: String, required: true, unique: true },
-  phone:{type:String, require:true , unique:true},
-  
+.catch((err) => {
+  console.error("Failed to connect to MongoDB", err);
 });
 
-const collection = mongoose.model('User', userSchema)
 
-module.exports = collection
-
-
-data = {
-  username:"customer",
-  password:"customer123",
-  email:"customer@gmail.com",
-  phone:"1234",
-
-}
+app.use('/api/user', authRoutes);
 
 
-
-
-
-collection.insertMany([data])
+app.listen(5000, () => {
+  console.log("Server is running on port 5000");
+});

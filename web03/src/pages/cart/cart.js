@@ -15,14 +15,14 @@ class Cart extends React.Component {
                 <li className='nav-item' id='cart'><a href='/Cart'>C</a></li>
                 <li className='nav-item' id='customer-icon'><a href='/Customer'>C</a></li>
             </div> */}
-            <div class="row">
-                <div class="item">
+            <div className="row">
+                <div className="item">
                     <input type='checkbox' className='check-item'></input>
-                    <div class="product-view">
+                    <div className="product-view">
                         <img src=".\src\cart\Vector.jpg" alt=""></img>
                     </div>
                     <div className='des-container'>
-                        <div class="content">
+                        <div className="content">
                             <h1>Item's name</h1>
                             <h2>Price: </h2>
                         </div>

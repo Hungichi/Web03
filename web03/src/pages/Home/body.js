@@ -93,7 +93,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -102,7 +102,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -111,7 +111,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -120,7 +120,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -129,7 +129,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -138,7 +138,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -147,7 +147,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -156,7 +156,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -165,7 +165,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -174,7 +174,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -183,7 +183,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
@@ -192,7 +192,7 @@ function Body() {
                 <div className='d-flex justify-content-center '>Product 1</div>
                 <div className='d-flex justify-content-center '>$199.99</div>
                 <div class="text-box">
-                  <a href="#" class="btnH btnH-white btnH-animate">Add to cart</a>
+                  <a href="#" className="btnH btnH-white btnH-animate">Add to cart</a>
                </div>
                 
             </div>
