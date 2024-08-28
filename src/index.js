@@ -24,6 +24,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
+  < Body/>
     <Router>
       <Routes>
         <Route path='/Dashboard' element={<Dashboard />}>
