@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-// import Cart from './pages/cart/cart.js';
+import Cart from './pages/cart/cart.js';
 import Payment from './pages/payment/Payment.js';
 import Header from './pages/Home/header';
 import Body from './pages/Home/body';
@@ -44,8 +44,8 @@ root.render(
         </Route>
         <Route path='/Payment' element={<Payment />}>
         </Route>
-        {/* <Route path='/Cart' element={<Cart />}>
-        </Route> */}
+        <Route path='/Cart' element={<Cart />}>
+        </Route>
         <Route path='/SignUP' element={<SignUp />}>
         </Route>
       </Routes>
