@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaUserCircle } from 'react-icons/fa';
 import './Profile.css';
-const Profile = () => {
+const Profile = ({username , email, phone , password}) => {
   return (
     <div className='container-profile' style={{ display: "flex", margin: "50px 10px" }}>
       <div className='profile' style={{ flex: "1", marginRight: "10px", backgroundColor: "#fff", boxShadow: "rgba(0,0,0,0.16)0px 1px 4px", borderRadius: "5px", height: "max-content" }}>

@@ -31,23 +31,23 @@ const productList = () => {
                         <thead className='thead-ordList'>
                             <tr className='tr-ordList'>
                                 <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px", padding:"6px 0"}}>STT</th>
-                                <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}>Product Name</th>
-                                <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}>Img </th>
-                                <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}>Price</th>
-                                <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}>Description</th>
-                                <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}>Category</th>
+                                <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}>Ngày</th>
+                                <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}>Tình trạng đơn hàng</th>
+                                <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}>Tình trạng Thanh toán</th>
+                                <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}>Khách hàng</th>
+                                <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}>Tổng cộng</th>
                                 <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0",textAlign:"right"}}>     Action   </th>
                                 <th className='th-ordList'style={{backgroundColor:"#000", color:"white",fontSize:"20px",padding:"6px 0"}}></th>
                             </tr>
                         </thead>
                         <tbody className="tbody-ordList">
                             <tr className='tr-ordList'>
-                                <td className='tr-ordList' style={{fontSize:"20px"}}></td>
-                                <td className='tr-ordList'style={{fontSize:"20px"}}></td>
-                                <td className='confirm-ordList'style={{fontSize:"20px",  fontWeight:"bold"}}></td>
-                                <td className='confirm-ordList'style={{fontSize:"20px",  fontWeight:"bold"}}></td>
-                                <td className='tr-ordList'style={{fontSize:"20px"}}></td>
-                                <td className='tr-ordList'style={{fontSize:"20px"}}></td>
+                                <td className='tr-ordList' style={{fontSize:"20px"}}>1</td>
+                                <td className='tr-ordList'style={{fontSize:"20px"}}>25/08/2024</td>
+                                <td className='confirm-ordList'style={{fontSize:"20px", color:"green", fontWeight:"bold"}}>Hoàn thành</td>
+                                <td className='confirm-ordList'style={{fontSize:"20px", color:"green", fontWeight:"bold"}}>Đã thanh toán</td>
+                                <td className='tr-ordList'style={{fontSize:"20px"}}>Name</td>
+                                <td className='tr-ordList'style={{fontSize:"20px"}}>9.125.000đ</td>
                                 <td className='tr-ordList'style={{}}>
                                     <a href='' className='delete' style={{background:"red",color:"white", borderRadius:"5px", padding:"3px",textDecoration:"none"}}>Delete</a>
                                 </td>
@@ -55,7 +55,20 @@ const productList = () => {
                                     <a href='' className='Edit'style={{background:"green",color:"white", borderRadius:"5px", padding:"3px", listStyle:"none",textDecoration:"none"}}>Edit</a>
                                 </td>
                             </tr>
-                            
+                            <tr className='tr-ordList'>
+                                <td className='tr-ordList' style={{fontSize:"20px"}}>2</td>
+                                <td className='tr-ordList'style={{fontSize:"20px"}}>25/08/2024</td>
+                                <td className='not-confirm-ordList'style={{fontSize:"20px", color:"orange", fontWeight:"bold"}}>Chưa Hoàn thành</td>
+                                <td className='not-confirm-ordList'style={{fontSize:"20px", color:"orange", fontWeight:"bold"}}>Chưa thanh toán</td>
+                                <td className='tr-ordList'style={{fontSize:"20px"}}>Name</td>
+                                <td className='tr-ordList'style={{fontSize:"20px"}}>9.125.000đ</td>
+                                <td className='tr-ordList'style={{}}>
+                                    <a href='' className='delete' style={{background:"red",color:"white", borderRadius:"5px", padding:"3px",textDecoration:"none"}}>Delete</a>
+                                </td>
+                                <td className='tr-ordList'style={{}}>
+                                    <a href='' className='Edit'style={{background:"green",color:"white", borderRadius:"5px", padding:"3px", listStyle:"none",textDecoration:"none"}}>Edit</a>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

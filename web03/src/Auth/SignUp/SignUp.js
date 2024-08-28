@@ -3,39 +3,18 @@ import './SinUp.css';
 import axios from 'axios';
 
 const SignUp = () => {
-    const [username, setUsername] = useState('');
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const [confirmPassword, setConfirmPassword] = useState('');
+  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
 
-    const handleSignup = async (e) => {
-        e.preventDefault();
-        
-        if (password !== confirmPassword) {
-            alert("Passwords do not match");
-            return;
-        }
-
-        try {
-            const response = await axios.post('http://localhost:5000/api/user/signup', {
-                username,
-                email,
-                password,
-                confirmPassword,
-            });
-
-            alert('Signup successful');
-            console.log(response.data);
-        } catch (error) {
-          console.error('Error during user registration:', {
-            message: error.message,
-            stack: error.stack,
-            name: error.name
-          });
-            alert(error.response.data.message);
-        }
+  const handleSignup = async (e) => {
+      e.preventDefault();
+      if (password !== confirmPassword) {
+          alert('Passwords do not match');
+          return;
+      }
     };
-
   return (
     <div className='body'>
        <div className='container1'> 

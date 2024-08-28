@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 
 exports.signup = async (req, res) => {
     const { username, email, password, confirmPassword } = req.body;
-    console.log("Received data:", { username, email, password, confirmPassword });
+
     if (password !== confirmPassword) {
         return res.status(400).json({ message: 'Passwords do not match' });
     }

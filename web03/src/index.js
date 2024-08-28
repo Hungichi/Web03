@@ -53,7 +53,7 @@ root.render(
     </Router>
     <SignUp />
     <Footer /> */}
- <ProductList/>
+ <ProductDetails/>
   </React.StrictMode>
 );
 
