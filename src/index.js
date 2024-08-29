@@ -26,8 +26,6 @@ root.render(
     <Header />
     <Router>
       <Routes>
-        <Route path='/' element={<Body />}>
-        </Route>
         <Route path='/Dashboard' element={<Dashboard />}>
         </Route>
         <Route path='/Help' element={<Help />}>
