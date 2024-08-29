@@ -72,3 +72,8 @@ app.get("/get-image", async (req, res) => {
     res.json({ status: error });
   }
 });
+
+
+
+//////
+app.use('/api/auth', authRoutes);

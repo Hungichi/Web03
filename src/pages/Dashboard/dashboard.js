@@ -47,8 +47,8 @@ function Dashboard(){
                     <div style={{width:"35%",marginLeft:"3%", marginTop:"25px", backgroundColor:"white", borderRadius:"26px"}}>
                         <h2 style={{margin:"10px"}}>Product Media</h2>
                         <p style={{marginLeft:"10px"}}>Photo Product </p>
-                        <label for="images" class="drop-container" id="dropcontainer">
-                            <span  class="drop-title">Drop files here </span>
+                        <label for="images" className="drop-container" id="dropcontainer">
+                            <span  className="drop-title">Drop files here </span>
                             or
                             <input onChange={onInputChange} accept='image/*' type="file" id="images" style={{border:"none",marginLeft:"10px",marginRight:"10px",}}></input>
                         </label>

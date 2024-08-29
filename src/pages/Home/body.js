@@ -100,6 +100,7 @@ function Body() {
             <Product imgF ="/iphone.png" imgB = "/ip.png"/>
             <Product imgF ="/iphone.png" imgB = "/ip.png"/>
             <Product imgF ="/iphone.png" imgB = "/ip.png"/>
+
         </div>
       </div>
     );

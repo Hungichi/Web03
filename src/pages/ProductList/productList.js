@@ -23,7 +23,7 @@ const productList = () => {
         </div>
         <div className='admin-content-main' style={{background:"#F8F8F8"}}>
             <div className='admin-content-main-title'style={{display:"flex", justifyContent:"space-between",margin:"50px"}}>
-                <h1 className='h1-admin-content-main'>Order List</h1>
+                <h1 className='h1-admin-content-main'>Product List</h1>
             </div>
             <div className='admin-content-main-content' style={{background:"white",boxShadow: "rgba(0,0,0,0.1)", padding:"10px"}}>
                 <div className='admin-content-main-content-orderList'>

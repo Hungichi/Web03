@@ -1,15 +1,23 @@
-const mongoose = require("../controllers/userController");
+const mongoose = require('mongoose');
+const bcrypt = require('bcryptjs');
 
-const userSchema = new mongoose.Schema({
-    username:String,
-    email:String,
-    password:String,
-    confirmpassword:String,
-    role:{type:String, enum:['admin','customer'], default:"customer"},
-    cart: [{
-        productId: mongoose.Schema.Types.ObjectId,
-        quantity: Number,
-        price: Number,
-      }],
+const UserSchema = new mongoose.Schema({
+    username: { type: String, required: true, unique: true },
+    email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
 });
-module.exports = mongoose.model("User", userSchema);
+
+UserSchema.pre('save', async function(next) {
+    if (!this.isModified('password')) return next();
+    const salt = await bcrypt.genSalt(10);
+    this.password = await bcrypt.hash(this.password, salt);
+    next();
+});
+
+UserSchema.methods.matchPassword = async function(password) {
+    return await bcrypt.compare(password, this.password);
+};
+
+const User = mongoose.model('User', UserSchema);
+
+module.exports = User;
