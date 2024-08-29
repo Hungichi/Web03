@@ -96,12 +96,12 @@
     display: block;
     height: 30px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
     border-radius: 4px;
     padding: 0 40px;
     margin-top: 20px;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 300;
+    color: #0000;
     
 }
 ::placeholder{

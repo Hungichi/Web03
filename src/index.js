@@ -26,6 +26,8 @@ root.render(
     <Header />
     <Router>
       <Routes>
+        <Route path='/' element={<Body />}>
+        </Route>
         <Route path='/Dashboard' element={<Dashboard />}>
         </Route>
         <Route path='/Help' element={<Help />}>
@@ -47,6 +49,8 @@ root.render(
         <Route path='/Cart' element={<Cart />}>
         </Route>
         <Route path='/SignUP' element={<SignUp />}>
+        </Route>
+        <Route path='/SignIn' element={<SignIn />}>
         </Route>
       </Routes>
     </Router>

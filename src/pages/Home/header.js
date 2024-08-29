@@ -10,15 +10,16 @@ function header() {
                 <h2 className='text-light'>FPS Store</h2>
             </div>
             <ul style={{width:"400px"}} className='d-flex justify-content-between '>
-                <li style={{marginLeft:"10px"}} class="mt-1 p-2"><a class="text-decoration-none text-light" href='/Home'>Home</a></li>
-                <li style={{marginLeft:"10px"}} class="mt-1 p-2"><a class="text-decoration-none text-light" href='/Category'>Categories</a></li>
-                <li style={{marginLeft:"10px"}} class="mt-1 p-2"><a class="text-decoration-none text-light" href='/AboutUs'>About Us</a></li>
-                <li style={{marginLeft:"10px"}} class="mt-1 p-2"><a class="text-decoration-none text-light" href='/Help'>Help</a></li>
+                <li style={{marginLeft:"10px"}} className="mt-1 p-2"><a className="text-decoration-none text-light" href='/Home'>Home</a></li>
+                <li style={{marginLeft:"10px"}} className="mt-1 p-2"><a className="text-decoration-none text-light" href='/Category'>Categories</a></li>
+                <li style={{marginLeft:"10px"}} className="mt-1 p-2"><a className="text-decoration-none text-light" href='/AboutUs'>About Us</a></li>
+                <li style={{marginLeft:"10px"}} className="mt-1 p-2"><a className="text-decoration-none text-light" href='/Help'>Help</a></li>
             </ul>
             <input style={{marginTop:"10px", borderRadius:"13px", height:"40px" , width:"305px" }} className='mt-2' type="text" placeholder="Search.."></input>
             <div>
-              <FaShoppingCart href="/Cart" style={{ margin:"15px",fontSize:"20px" ,color:"white"}}></FaShoppingCart>
-              <FaRegUserCircle style={{margin:"15px",fontSize:"20px" ,color:"white"}}></FaRegUserCircle>
+              <FaShoppingCart style={{ margin:"15px",fontSize:"20px" ,color:"white"}}></FaShoppingCart>
+              <a href='/SignUP'><FaRegUserCircle  style={{margin:"15px",fontSize:"20px" ,color:"white"}}></FaRegUserCircle></a>
+              
             </div>
             
 
