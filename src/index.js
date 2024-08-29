@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Cart from './pages/cart/cart.js';
 import Payment from './pages/payment/Payment.js';
 import Header from './pages/Home/header';
-import Body from './pages/Home/body';
+import Home from './pages/Home/body';
 import Footer from './pages/Home/footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import SignIn from './Auth/signin/Index';
@@ -26,15 +26,13 @@ root.render(
     <Header />
     <Router>
       <Routes>
-        <Route path='/' element={<Body />}>
-        </Route>
         <Route path='/Dashboard' element={<Dashboard />}>
         </Route>
         <Route path='/Help' element={<Help />}>
         </Route>
         <Route path='/AboutUs' element={<Aboutus />}>
         </Route>
-        <Route path='/Home' element={<Body />}>
+        <Route path='/Home' element={<Home />}>
         </Route>
         <Route path='/Headphone' element={<Headphone />}>
         </Route>
