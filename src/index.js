@@ -32,7 +32,7 @@ root.render(
         </Route>
         <Route path='/AboutUs' element={<Aboutus />}>
         </Route>
-        <Route path='/Home' element={<Home />}>
+        <Route path='/' element={<Home />}>
         </Route>
         <Route path='/Headphone' element={<Headphone />}>
         </Route>
