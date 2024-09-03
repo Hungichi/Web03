@@ -132,18 +132,20 @@ function Iphone() {
                   <h2 style={{marginTop:"15px"}} class=" flex-grow-1 ">Iphone</h2>
                </div>
          <div style={{marginBottom:"20px"}} className='d-flex flex-wrap'>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
+            <Product imgF ="/iphone.png" imgB = "/iphone13.webp" name="iphone 13 Promax " price="$577"/>
+            <Product imgF ="/SamsungS23.webp" imgB = "/SamsungS23B.jpeg" name="Samsung S23 Ultra" price="$470"/>
+            <Product imgF ="/iphoneX.webp" imgB = "/iphoneXB.jfif" name="iphone Xs " price="$399"/>
+            <Product imgF ="/iphone11.webp" imgB = "/iphone11B.jpg" name="iphone 11 Promax " price="$477"/>
+            <Product imgF ="/xiaomi13.jfif" imgB = "/xiaomi13B.jpg" name="Xiaomi 13 pro " price="$557"/>
+            <Product imgF ="/pova6.webp" imgB = "/pova6B.webp" name="pova 6" price="$499"/>
+            <Product imgF ="/oppoa3.webp" imgB = "/oppoa3B.webp"name="OPPO A3" price="$430"/>
+            <Product imgF ="/nubia.webp" imgB = "/nubiaB.jfif"name="nubia NEO2" price="$480"/>
+            <Product imgF ="/nubianeo.webp" imgB = "/nubianeoB.webp"name="nubia NEO" price="$480"/>
+            <Product imgF ="/pova5.webp" imgB = "/pova5B.webp"name="pova5" price="$410"/>
+            
+
+
+
          </div>
         </div>
         

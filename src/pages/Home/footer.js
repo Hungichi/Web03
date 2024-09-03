@@ -24,9 +24,9 @@ function footer() {
 
         <div className="p-2 text-light flex-column d-flex bd-highlight" style={{height:'200px'}} >
             <h3 className="pt-2 text-light">Resource</h3>
-            <div herf="/AboutUs" className="pb-1 text-light">About Us</div>
-            <div herf="/Category" className="pb-1 text-light">Categories</div>
-            <div herf="/Help" className=" text-light">Help</div>
+            <a herf="/AboutUs" className="pb-1 text-light">About Us</a>
+            <a herf="/Category" className="pb-1 text-light">Categories</a>
+            <a herf="/Help" className=" text-light">Help</a>
 
         </div>
     </div>

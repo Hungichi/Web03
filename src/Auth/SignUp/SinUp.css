@@ -102,11 +102,12 @@
     font-size: 13px;
     font-weight: 300;
     color: #0000;
-    
+    background-color: #ffff;
 }
 ::placeholder{
     color: #666666;
 }
+
 .btn{
     margin-top: 20px;
     width: 100%;

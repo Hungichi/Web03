@@ -132,18 +132,19 @@ function Laptop() {
                   <h2 style={{marginTop:"15px"}} class=" flex-grow-1 ">Laptop</h2>
                </div>
          <div style={{marginBottom:"20px"}} className='d-flex flex-wrap'>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
+
+            <Product imgF ="/laptopF.jpg" imgB = "/laptopB.avif"  name="microsoft laptop" price="$599"/>
+            <Product imgF ="/Asus.webp" imgB = "/AsusB.webp" name="ASUS laptop" price="$699"/>
+            <Product imgF ="/MSIgaming.webp" imgB = "/MSIgamingB.webp" name="MSI gaming" price="$799"/>
+            <Product imgF ="/LENNOVO.jfif" imgB = "/LENNOVOB.jfif" name="Lenovo laptop" price="$699"/>
+            <Product imgF ="/MACBOOKM2.webp" imgB = "/MACBOOKM2B.webp" name="MACBOOK M2" price="$699"/>
+            <Product imgF ="/ROGStrix.webp" imgB = "/ROGStrixB.webp" name="ROG Strix" price="$579"/>
+            <Product imgF ="/acernitro.webp" imgB = "/acernitroB.webp" name="acer nitro" price="$639"/>
+            <Product imgF ="/bravo15.webp" imgB = "/bravo15B.webp" name="Bravo 15" price="$699"/>
+            <Product imgF ="/gigabyte.webp" imgB = "/gigabyteB.webp" name="gigabyte pro" price="$699"/>
+            <Product imgF ="/Asus.webp" imgB = "/AsusB.webp" name="ASUS laptop" price="$699"/>
+
+
          </div>
         </div>
         

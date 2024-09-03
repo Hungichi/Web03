@@ -4,6 +4,7 @@ import {FaChevronDown} from 'react-icons/fa';
 import './category.css'
 
 function Product(props){
+    
     const {imgF, imgB, name, price} = props
     return(
         <div  className='stuff' >

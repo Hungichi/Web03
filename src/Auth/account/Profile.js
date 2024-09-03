@@ -1,19 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaUserCircle } from 'react-icons/fa';
-import './Profile.css';
-const Profile = ({username , email, phone , password}) => {
+import imgUser from './user.png';
+import imageTobase from '../account/Uploadpic';
+const Profile = () => {
+  const [data, setData] =useState({
+    profilePic :""
+  })
+  const handleChangePic = async (e) =>{
+    const file = e.target.files[0]
+    const imagePic = await imageTobase(file)
+    setData((preve) => {
+      return{
+        ...preve,
+        profilePic : imagePic
+      }
+
+    })
+
+  }
   return (
     <div className='container-profile' style={{ display: "flex", margin: "50px 10px" }}>
       <div className='profile' style={{ flex: "1", marginRight: "10px", backgroundColor: "#fff", boxShadow: "rgba(0,0,0,0.16)0px 1px 4px", borderRadius: "5px", height: "max-content" }}>
         <div className='profile-header' style={{ display: "flex", marginLeft: "15px", }}>
-          <img src='./user.png' alt="profile" className='profile-img' style={{ width: "100px", height: "100px", borderRadius: "10px", margin: "10px" }} />
+          <img src={data.profilePic || imgUser}
+           alt="profile" 
+           className='profile-img' 
+           style={{ width: "100px", height: "100px", borderRadius: "10px", margin: "10px" }}
+            />
           <div className="file-primary" style={{position:"relative", overflow:"hidden",marginTop:"110px", width:"100px",border:"none",borderRadius:"0",fontSize:"15px",background:"#212529b8", color:"white",position:"absolute",left:"35px"}}>
             Change Photo
-            <input type="file" name="file" style={{position:"absolute", opacity:"0", right:"0", top:"0"}} />
+            <input type="file" name="file" style={{position:"absolute", opacity:"0", right:"0", top:"0"}} onChange={(handleChangePic)} />
           </div>
           <div className='profile-text-container' style={{ lineHeight: "0.5" }}>
-            <h1 className='profile-title' style={{ fontSize: "30px", fontWeight: "400", color: "blue", margin: "20px" }}>Name</h1>
-            <p className='profile-email' style={{ fontSize: "16px", margin: "20px" }}>name@gmail.com</p>
+            <h1 className='profile-title' style={{ fontSize: "30px", fontWeight: "400", color: "blue", margin: "20px" }}>FPS Store</h1>
+            <p className='profile-email' style={{ fontSize: "16px", margin: "20px" }}>fps@gmail.com</p>
           </div>
         </div>
         <div className='menu' style={{ margin: "0 20px" }}>
@@ -33,24 +53,24 @@ const Profile = ({username , email, phone , password}) => {
 
           <div className="container">
 
-            <form className='form-profile' style={{ width: "550px", fontWeight: "bold", padding: "10px" }}>
+            <form className='form-profile' style={{ width: "550px", fontWeight: "bold", padding: "20px" }}>
 
-              <div className="form-group">
+              <div className="form-group" style={{margin:"20px"}}>
 
-                <label className='lab-profile' for="userName" style={{ fontSize: "20px", color: "#8f9096", }}>UserName</label>
-                <input className='inp-profile' type="text"  id="userName" placeholder='Name' style={{ padding: "10px" }} />
-
-              </div>
-              <div className="form-group">
-
-                <label className='lab-profile' for="phone" style={{ fontSize: "20px", color: "#8f9096" }}>Phone</label>
-                <input className='inp-profile' type="text" id="phone" placeholder='0987-564-141' style={{ padding: "10px" }} />
+                <label className='lab-profile' htmlFor="userName" style={{ fontSize: "20px", color: "#8f9096" }}>UserName:</label>
+                <h5 className='inp-profile' type="text"  id="userName" placeholder='Name' style={{ padding: "10px" }} >FPS Store</h5>
 
               </div>
-              <div className="form-group">
+              <div className="form-group"style={{margin:"20px"}}>
 
-                <label className='lab-profile' for="pass" style={{ fontSize: "20px", color: "#8f9096" }}>Password</label>
-                <input className='inp-profile' type="password"  id="pass" placeholder='*********' style={{ padding: "10px" }} />
+                <label className='lab-profile' htmlFor="phone" style={{ fontSize: "20px", color: "#8f9096" }}>Email:</label>
+                <h5 className='inp-profile' type="text" id="phone" placeholder='0987-564-141' style={{ padding: "10px" }}>fps@gmail.com</h5>
+
+              </div>
+              <div className="form-group"style={{margin:"20px"}}>
+
+                <label className='lab-profile' htmlFor="pass" style={{ fontSize: "20px", color: "#8f9096" }}>Password:</label>
+                <h5 className='inp-profile' type="password"  id="pass" placeholder='*********' style={{ padding: "10px", }} >fps123</h5>
 
               </div>
             </form>
@@ -64,4 +84,3 @@ const Profile = ({username , email, phone , password}) => {
 }
 
 export default Profile
-

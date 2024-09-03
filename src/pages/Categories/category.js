@@ -10,6 +10,7 @@ import Dropdown2 from './Dropdown2/Dropdown2.jsx';
 import Product from './product.js';
 
 function Categories() {
+   
    const items = ["Iphone", "Headphone", "Laptop",];
    const [show, setShow] = useState(false);
    const [show2, setShow2] = useState(false);
@@ -77,12 +78,12 @@ function Categories() {
             <Product imgF ="/SamsungS23.webp" imgB = "/SamsungS23B.jpeg" name="Samsung S23 Ultra" price="$470"/>
             <Product imgF ="/iphoneX.webp" imgB = "/iphoneXB.jfif" name="iphone Xs " price="$399"/>
             <Product imgF ="/moxpad.jpg" imgB = "/moxpadB.jpg" name="moxpad X9 " price="$399"/>
-            <Product imgF ="/iphone.png" imgB = "/iphone13.webp" name="iphone 11 Promax " price="$477"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
-            <Product imgF ="/iphone.png" imgB = "/ip.png"/>
+            <Product imgF ="/iphone11.webp" imgB = "/iphone11B.jpg" name="iphone 11 Promax " price="$477"/>
+            <Product imgF ="/xiaomi13.jfif" imgB = "/xiaomi13B.jpg" name="Xiaomi 13 pro " price="$557"/>
+            <Product imgF ="/gaminghead.jpg" imgB = "/gamingheadB.webp" name="NASUN headphone" price="$200"/>
+            <Product imgF ="/Asus.webp" imgB = "/AsusB.webp" name="ASUS laptop" price="$699"/>
+            <Product imgF ="/pova6.webp" imgB = "/pova6B.webp" name="pova 6" price="$499"/>
+            <Product imgF ="/nubia.webp" imgB = "/nubiaB.jfif"name="nubia NEO2" price="$480"/>
          </div>
         </div>
         
