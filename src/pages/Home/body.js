@@ -54,28 +54,28 @@ function Body() {
                 <div className="d-flex justify-content-center">iPhone</div>
             </div>
             <div style={ {marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
-                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
-                <div className="d-flex justify-content-center">iPhone</div>
+                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/laptopF.jpg" alt="laptop" />
+                <div className="d-flex justify-content-center">laptop</div>
             </div>
             <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
-                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
-                <div className="d-flex justify-content-center">iPhone</div>
+                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/SamsungS23.png" alt="iPhone" />
+                <div className="d-flex justify-content-center">SamsungS23</div>
             </div>
             <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
-                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
-                <div className="d-flex justify-content-center">iPhone</div>
+                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/moxpad.jpg" alt="iPhone" />
+                <div className="d-flex justify-content-center">moxpad x9</div>
             </div>
             <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
-                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
-                <div className="d-flex justify-content-center">iPhone</div>
+                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/gaminghead.jpg" alt="iPhone" />
+                <div className="d-flex justify-content-center">gaming headphone</div>
             </div>
             <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
-                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
-                <div className="d-flex justify-content-center">iPhone</div>
+                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/Asus.webp" alt="iPhone" />
+                <div className="d-flex justify-content-center">Asus laptop</div>
             </div>
             <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
-                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
-                <div className="d-flex justify-content-center">iPhone</div>
+                <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/nubia.webp" alt="iPhone" />
+                <div className="d-flex justify-content-center">nubia NEO</div>
             </div>
             <div style={ { marginTop:"15px", marginBottom:"20px" , marginLeft:"30px", borderRadius:"15px", width:"150px", height:"200px",backgroundColor:"white" }} >
                 <img style={{marginLeft:"5px",width:"140px", height:"145px" }} src="/iphone.png" alt="iPhone" />
