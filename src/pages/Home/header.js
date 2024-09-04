@@ -11,7 +11,7 @@ function header() {
             </div>
             <ul style={{width:"400px"}} className='d-flex justify-content-between '>
                 <li style={{marginLeft:"10px"}} className="mt-1 p-2"><a className="text-decoration-none text-light" href='/'>Home</a></li>
-                <li style={{marginLeft:"10px"}} className="mt-1 p-2"><a className="text-decoration-none text-light" href='/Category'>Categories</a></li>
+                <li style={{marginLeft:"10px"}} className="mt-1 p-2"><a className="text-decoration-none text-light" href='/Category'>Category</a></li>
                 <li style={{marginLeft:"10px"}} className="mt-1 p-2"><a className="text-decoration-none text-light" href='/AboutUs'>About Us</a></li>
                 <li style={{marginLeft:"10px"}} className="mt-1 p-2"><a className="text-decoration-none text-light" href='/Help'>Help</a></li>
             </ul>
