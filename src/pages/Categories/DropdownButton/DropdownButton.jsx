@@ -1,4 +1,4 @@
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 import "./DropdownButton.css";
