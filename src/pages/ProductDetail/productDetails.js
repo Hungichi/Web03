@@ -43,7 +43,6 @@ function ProductDetails() {
 
     }
     const handleAddToCart = () => {
-        window.location.href = '/Payment.js'
         alert(`Added ${quantity} items to the cart`);
     }
 
