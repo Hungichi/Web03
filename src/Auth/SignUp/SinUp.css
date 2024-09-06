@@ -101,8 +101,7 @@
     margin-top: 20px;
     font-size: 13px;
     font-weight: 300;
-    color: #0000;
-    background-color: #ffff;
+    color: black;
 }
 ::placeholder{
     color: #666666;
